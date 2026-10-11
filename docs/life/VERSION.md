@@ -23,7 +23,7 @@ npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-questio
 | zp-check | 0.1.0 |
 | zp-partner | 1.0.0 |
 | zp-self | 1.2.0 |
-| zp-support | 1.2.0 |
+| zp-support | 1.2.1 |
 | zp-perspective | 0.1.0 |
 | zp-guide | 1.1.0 |
 

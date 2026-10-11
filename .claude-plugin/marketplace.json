@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "zpskill：先认识你想过的生活，再陪你把眼前的事做成，不辜负。",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "description": "zpskill 全集：主线「过好你的人生」10 个，求职「走出象牙塔」11 个。",
       "source": "./",
       "strict": true,
-      "version": "1.2.0",
+      "version": "1.2.1",
       "category": "bundle",
       "keywords": [
         "life",
@@ -178,7 +178,7 @@
       "description": "心理支持与治疗辅助：以共同理解和可修正的问题模型整合心理学方法，按需讨论哲学与生活意义。用于倾诉、心理疗愈、自责焦虑、难控习惯、关系与自我价值困扰、咨询辅助，或研究和完善心理支持方法；不把方法研究自动转成个体干预，不替代诊断或治疗安排。",
       "source": "./skills/zp-support",
       "strict": true,
-      "version": "1.2.0",
+      "version": "1.2.1",
       "category": "life"
     },
     {

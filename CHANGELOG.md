@@ -1,3 +1,8 @@
+# 2026-10-11 · 补充心理援助渠道 / Support lines added
+
+- `zp-support` 补上中国大陆非紧急心理援助渠道（12356、12355、12338），说明用途与限制。
+- `zp-support` lists non-emergency support lines for mainland China with their limits.
+
 # 2026-10-11 · 看见你自己，也看见对方 / See yourself, and the other side
 
 - 新增 `zp-perspective`（视角互换）：站到对方的位置看事情，异性、老板与员工、买家与卖家都适用。`zp-self` 新增发现独有优势，以及觉得没价值、没意义时先确认安全再找小入口；`zp-support`、`zp-judge`、`zp-life` 配套补强。起步只带一个问题就行，第一次会问怎么称呼你。

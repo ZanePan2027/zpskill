@@ -1,3 +1,8 @@
+## 2.2 · 2026-10-11 · 补充心理援助渠道
+
+- `zp-support` 补上中国大陆非紧急心理援助渠道：全国统一心理援助热线 12356，青少年 12355，婚姻家庭与妇女儿童权益 12338；说明各自用途与限制，号码与时段以官方当前信息为准。
+- `zp-support` now lists non-emergency mental-health support lines for mainland China (12356, 12355, 12338) with their purpose and limits; confirm numbers and hours against official sources.
+
 ## 2.2 · 2026-10-11 · 看见你自己，也看见对方
 
 - 新增 `zp-perspective`（视角互换）：站到对方的位置看事情，异性、老板与员工、买家与卖家、甲方与乙方、父母与子女都适用。先看位置和激励，再看群体倾向，最后才是个体；给几种带依据的读法和一个验证办法；不替对方读心、不教操控。

@@ -4,7 +4,7 @@
 
 > **Zane's Life-Management Skills**: Start from the life you want, then get the thing in front of you done, without letting that life down.
 
-[![Version](https://img.shields.io/badge/version-1.2.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-1.2.1-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
