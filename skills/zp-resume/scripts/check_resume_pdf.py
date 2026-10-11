@@ -44,17 +44,18 @@ HEADINGS = ("教育", "工作经历", "实习", "项目", "技能", "Education",
 
 
 def text_layer_hints(reader) -> list[str]:
-    """What a parser sees: order, headings, contact, split glyphs, smallest type, bottom fill.
+    """What a parser sees: order, headings, contact, split headings, smallest body type, bottom fill.
 
     Built on pypdf visitor_text; coordinates are PDF points. Hints only: a person still
-    reads the rendered pages.
+    reads the rendered pages. Tuned against real resumes: page numbers, running footers and
+    per-glyph body text (common in generated PDFs) are not reported as problems.
     """
     hints: list[str] = []
     runs: list[tuple[int, float, float, float, str]] = []  # page, y, x, size, text
     for index, page in enumerate(reader.pages, start=1):
-        def visit(text, cm, tm, font_dict, font_size, _i=index):
+        page_h = float(page.mediabox.height)
+        def visit(text, cm, tm, font_dict, font_size, _i=index, _h=page_h):
             if text and text.strip():
-                # tm is the text matrix; combine with cm for the final position
                 x = tm[4] * cm[0] + tm[5] * cm[2] + cm[4]
                 y = tm[4] * cm[1] + tm[5] * cm[3] + cm[5]
                 size = abs(font_size * (tm[3] if tm[3] else 1) * (cm[3] if cm[3] else 1))
@@ -66,40 +67,56 @@ def text_layer_hints(reader) -> list[str]:
     if not runs:
         return ["no text positions found (scanned or outlined text?)"]
 
-    full = "\n".join(r[4] for r in runs)
-    # headings
-    found = [h for h in HEADINGS if h in full]
-    if not any(h in full for h in ("工作经历", "实习", "Experience")):
+    # page numbers / running footers: short "1 / 2", "- 1 -", "Page 1" near the page edge are ignored
+    pagenum = re.compile(r"^(\d+\s*/\s*\d+|[-–—]?\s*\d+\s*[-–—]?|page\s*\d+)$", re.I)
+    body = [r for r in runs if not pagenum.match(r[4])]
+    if not body:
+        return ["only page numbers were extracted"]
+
+    full = "\n".join(r[4] for r in body)
+    low = full.lower()
+    if not any(h in low for h in ("工作经历", "实习", "experience", "经历")):
         hints.append("no standard experience heading found (工作经历 / 实习 / Experience); parsers may not segment sections")
-    if not any(h in full for h in ("教育", "Education")):
+    if not any(h in low for h in ("教育", "education", "学历")):
         hints.append("no standard education heading found (教育 / Education)")
-    # contact in the first 12 runs of reading order
-    head = " ".join(r[4] for r in runs[:12])
-    if not re.search(r"1[3-9]\d{9}|@[\w.-]+\.\w+|https?://", head):
+    head = " ".join(r[4] for r in body[:12])
+    if not re.search(r"1[3-9]\d{9}|@[\w.-]+\.\w+|https?://|\+\d{1,3}[ \d-]{8,}", head):
         hints.append("no phone / email / link among the first extracted lines; contact may be read last or lost")
-    # reading order: in extraction order, does y rise again by a lot on the same page (column jump)?
+
+    # reading order: jump back UP the page by a lot, across columns, ignoring page numbers
     jumps = 0
     prev = None
-    for page_no, y, x, size, t in runs:
+    for page_no, y, x, size, t in body:
         if prev and prev[0] == page_no and y - prev[1] > 150 and abs(x - prev[2]) > 100:
             jumps += 1
         prev = (page_no, y, x, size, t)
     if jumps:
         hints.append(f"extraction order jumps back up the page {jumps} time(s) across columns; sidebar / two-column text may be read out of order")
-    # split glyphs: many runs of 1 character
-    singles = sum(1 for r in runs if len(r[4]) == 1)
-    if singles >= 4 and singles / len(runs) > 0.15:
-        hints.append(f"{singles} single-character text runs; letter-spaced headings or per-glyph drawing may be split by parsers")
-    # smallest type
-    sizes = [r[3] for r in runs if r[3] > 0]
-    if sizes and min(sizes) < 8:
-        hints.append(f"smallest type is {min(sizes):.1f} pt; check readability when printed")
-    # bottom fill of the last page (visual, informational)
-    last = [r for r in runs if r[0] == len(reader.pages)]
+
+    # split headings: a short heading drawn one glyph at a time on the same baseline with big gaps
+    split = 0
+    by_line: dict[tuple[int, int], list[tuple[float, str]]] = {}
+    for page_no, y, x, size, t in body:
+        if len(t) == 1:
+            by_line.setdefault((page_no, round(y)), []).append((x, t))
+    for glyphs in by_line.values():
+        glyphs.sort()
+        if 2 <= len(glyphs) <= 8 and all(b[0] - a[0] > 14 for a, b in zip(glyphs, glyphs[1:])):
+            split += 1
+    if split:
+        hints.append(f"{split} heading-like line(s) drawn one glyph at a time with wide gaps; letter-spaced headings may be split by parsers")
+
+    # smallest type of body text (page numbers excluded; the smallest 5% are treated as labels)
+    sizes = sorted(r[3] for r in body if r[3] > 0)
+    if sizes:
+        floor = sizes[max(0, int(len(sizes) * 0.05))]
+        if floor < 7:
+            hints.append(f"small type around {floor:.1f} pt; check readability when printed")
+
+    last = [r for r in body if r[0] == len(reader.pages)]
     if last:
         page_h = float(reader.pages[-1].mediabox.height)
-        lowest = min(r[1] for r in last)
-        fill = 1 - lowest / page_h
+        fill = 1 - min(r[1] for r in last) / page_h
         hints.append(f"last page: content reaches {fill:.0%} of page height from the top (page-bottom balance is a visual call; see visual-and-pdf-qa)")
     return hints
 

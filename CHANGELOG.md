@@ -1,3 +1,8 @@
+# 2026-10-11 · 机器阅读检查校准 / Text-layer check tuned
+
+- `check_resume_pdf.py --text-layer` 用真实两页简历校准：页码、页脚小字、逐字绘制的中文正文不再误报。
+- `--text-layer` tuned on real resumes: page numbers, footers and per-glyph body text no longer raise false alarms.
+
 # 2026-10-11 · 走出象牙塔：底稿与成品分离 / Working notes vs. the finished piece
 
 - 简历、作品集、案例的成品里只留一个口径词、必要的时间词和正向表述，证据级别、取数口径、归因限制留在底稿和面试口径里；不再出现“不能作为……证据”“尚未验证”“证据等级”这类句子。
