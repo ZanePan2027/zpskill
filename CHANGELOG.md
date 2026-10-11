@@ -1,3 +1,8 @@
+# 2026-10-11 · 看见你自己，也看见对方 / See yourself, and the other side
+
+- 新增 `zp-perspective`（视角互换）：站到对方的位置看事情，异性、老板与员工、买家与卖家都适用。`zp-self` 新增发现独有优势，以及觉得没价值、没意义时先确认安全再找小入口；`zp-support`、`zp-judge`、`zp-life` 配套补强。起步只带一个问题就行，第一次会问怎么称呼你。
+- Added `zp-perspective` (see the other side's position). `zp-self` finds what is distinctly yours and, when you feel worthless, checks safety first; `zp-support`, `zp-judge`, `zp-life` are strengthened to match. Starting needs only one question; it asks what to call you.
+
 # 2026-10-09 · 新增判断与复核 / Judgment and re-check added
 
 - 新增 `zp-judge`：对“要不要改／做”先判断成不成立，对做与不做都让反方说满，再给改、不改或再观察，附翻转条件和一个最小实验。

@@ -58,19 +58,33 @@ Output: the AI's claims broken out and graded, checked in ways that do not rely 
 
 `zp-self`
 
-Use when: Exploring motives, values, or recurring choices through experience.
+Use when: Exploring motives, values, or recurring choices through experience; feeling ordinary, unsure what you are good at, or sure you cannot because of height, family or schooling.
 
 ```text
 Use zp-self. Use these experiences to explore what matters to me when I choose.
+Use zp-self. I feel too ordinary. Here are a few things I have done: …; what do I have that few others do?
 ```
 
-Output: Grounded, tentative insights, open questions, and practical experiments.
+Output: Grounded, tentative insights, open questions, and practical experiments; when you feel worthless or without meaning, safety first, then concrete evidence that you matter and one small step; with enough material, also what is distinctly yours, fitting routes, and one small step you can start today.
+
+## [Perspective swap](../../skills/zp-perspective/SKILL.md)
+
+`zp-perspective`
+
+Use when: You want to know how the other side sees it: a partner, boss and employee, buyer and seller, client and vendor, parent and child. Standing inside one position, people often cannot see the root of a matter; stepping into the other's position often makes it clear at once.
+
+```text
+Use zp-perspective. I asked her to dinner this weekend; she answered a day later with “we'll see”. How is she thinking?
+Use zp-perspective. I am a seller and a customer keeps asking about refunds. Do they not want to buy?
+```
+
+Output: a few readings from the other position with reasons, the signals you send and how they may be misread, and one way to check. Understanding only: no manipulation, no mind-reading.
 
 ## [Psychological support and therapy assistance](../../skills/zp-support/SKILL.md)
 
 `zp-support`
 
-Use when: Seeking emotional support, understanding self-criticism or difficult habits, discussing relationship distress, or preparing for professional care.
+Use when: Seeking emotional support, feeling stopped by “I can’t”, understanding self-criticism or difficult habits, discussing relationship distress, or preparing for professional care.
 
 ```text
 Use zp-support. Listen to what has been difficult lately.

@@ -4,12 +4,12 @@
 
 > **Zane's Life-Management Skills**: Start from the life you want, then get the thing in front of you done, without letting that life down.
 
-[![Version](https://img.shields.io/badge/version-1.0.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-1.2.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It holds 20 Skills today: the main line, Live Your Life Well (9), and one concrete thing in a life, finding a job (11).
+zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It holds 21 Skills today: the main line, Live Your Life Well (10), and one concrete thing in a life, finding a job (11).
 
 [Quick start](#quick-start) · [Install](#install) · [What's inside](#whats-inside) · [How it works](#how-zpskill-works) · [Manuals](#manuals) · [Changelog](CHANGELOG.md)
 
@@ -29,8 +29,13 @@ It does not help you live the most cost-efficient life. It helps you live the li
 | Work, care, and personal projects compete for attention | A feasible overall plan and commitments to renegotiate |
 | You feel stuck before starting something | The sticking point understood first, then one step you actually want to take, made doable |
 | You feel overwhelmed and want to be understood | Listening, shared understanding, and support at your pace |
+| You want to know how the other side sees it: a partner, a boss, an employee, a buyer, a seller, a parent | Stepping into their position to give a few grounded, checkable readings, and pointing out what your own position hides; understanding only, no manipulation |
+| You feel worthless, needed by no one, or unsure why you are alive | First checking you are safe, then using concrete facts to show you someone is different because of you, and finding one small thing worth waking up for; no empty praise, no arguing you out of pain |
+| You feel ordinary, or that your height, family or schooling makes it impossible for you | Listening first, then finding what is rare about you from what you have actually done; separating “this cannot change” from “so I cannot”, and giving a route that fits you plus one small step you can start today |
 | You keep repeating the same background | Saved understanding, usable outputs, and a clear place to resume |
 | A concrete thing in front of you needs doing, such as a job search | Starting from the life you want, broken into steps you can take; such things have dedicated tools, see “A concrete thing” below |
+
+Many people never live fully because they decided early that they are ordinary and that successful people are a different kind. Nobody is born for one kind of life: your starting point holds experiences and combinations others do not have, nothing shows your ceiling is lower than anyone's, and the difference is mostly whether you begin. zpskill does not rely on a daily slogan. It finds the strengths in what you have actually done, then walks the first step with you.
 
 ---
 
@@ -55,10 +60,12 @@ Use zp-resume to make an English résumé for a product internship from these ex
 Use zp-judge: I want to re-cut all my next videos but I only have 100+ views of data. Should I?
 Use zp-check: the AI says it published the post; help me confirm it really did.
 Use zp-self: why do I give up just when I am about to succeed?
+Use zp-self: I feel too ordinary, and I cannot do what others do. Here are a few things I have done: …
+Use zp-perspective: I am a seller and a customer keeps asking about refunds. Do they not want to buy?
 Use zp-workspace to set this folder up as my life workspace, then help me with: …
 ```
 
-To have it remember you over time, open a folder you plan to keep using and ask it to set up a life workspace; next time say “Continue from last time”. It works without a workspace too. You do not need to learn a method or organize files first.
+To have it remember you over time, open a folder you plan to keep using and ask it to set up a life workspace; next time say “Continue from last time”. It works without a workspace too. You do not need to learn a method or organize files first. The first time, it asks what to call you and how you want to be accompanied; anything you say that would make later help fit you better, it notes and tells you on the spot, and over time gathers into a single “Who I am” page. The longer you use it, the more it feels like someone who knows you; where it lacks material, it says what is missing rather than pretending to know you.
 
 ---
 
@@ -76,10 +83,10 @@ Then tell your Agent “Use zp-life, help me…”.
 
 To install only part:
 
-**Main line: Live Your Life Well (9)**
+**Main line: Live Your Life Well (10)**
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-guide
 ```
 
 **Job search: finding a job (11)**
@@ -125,8 +132,9 @@ Day to day you only need `zp-life`; the rest are used as the question requires.
 | `zp-question` | A vague question turned into what you actually want to move forward |
 | `zp-judge` | For “should I change / do this?”: first checks it is a real question, argues against both options, then gives change / don't / observe with one smallest experiment; with thin data it never just says “wait” |
 | `zp-check` | Re-check what an AI did or said: it claims it is done, the chat drifted, or it keeps agreeing with you |
-| `zp-self` | Motives, values and recurring choices understood from real experience |
-| `zp-support` | Emotional and psychological support; not a substitute for diagnosis or treatment |
+| `zp-self` | Motives, values and recurring choices understood from real experience; finds what is distinctly yours, reframes “I am ordinary”; when you feel worthless or without meaning it checks safety first, then finds evidence you matter and one small step you are willing to take |
+| `zp-perspective` | Steps into the other side's position to say how they likely see and think about it: a partner, boss and employee, buyer and seller, client and vendor, parent and child; a few grounded readings plus one way to check |
+| `zp-support` | Emotional and psychological support, listening first when “I can’t” has taken hold; not a substitute for diagnosis or treatment |
 | `zp-partner` | Responsibilities, judgment and collaboration for a long-term AI partner |
 | `zp-workspace` | Build a workspace, organize sources, resume where you stopped |
 | `zp-guide` | When you need concrete everyday options, consults the [How To Live Better guide](https://github.com/eternity4719/HowToLiveBetter) with sources |

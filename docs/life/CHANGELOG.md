@@ -1,3 +1,11 @@
+## 2.2 · 2026-10-11 · 看见你自己，也看见对方
+
+- 新增 `zp-perspective`（视角互换）：站到对方的位置看事情，异性、老板与员工、买家与卖家、甲方与乙方、父母与子女都适用。先看位置和激励，再看群体倾向，最后才是个体；给几种带依据的读法和一个验证办法；不替对方读心、不教操控。
+- `zp-self` 新增发现独有优势：觉得自己普通、被身高或家庭等“我不可能”困住时，先接住，再从你自己做成过的事里找出别人少有的优势，给出适合的路和今天能开始的一小步。新增「价值、意义与可能性」：觉得没价值、没人需要、不知道为什么活着时先确认安全，再用具体的事让你看见有人因你而不同，找到一件愿意走的小事。不说“你一定能成”，也不用道理劝你别难受。
+- `zp-support` 补做了也没用的可控性检查、自主胜任联结三问、“如果……就……”和安全计划；`zp-judge` 补价值冲突型决定；`zp-life` 补一个问题需要几种方法时的默认组合。
+- 起步改为只带一个问题就行；第一次会问怎么称呼你、想怎样被陪；你说过的话会记成「我是谁」并当场告诉你。工作台模板新增「怎么称呼、怎么说话」。
+- Added `zp-perspective`: step into the other side's position (partner, boss and employee, buyer and seller, client and vendor, parent and child) for a few grounded readings and one way to check, with no mind-reading or manipulation. `zp-self` now finds what is distinctly yours and, when you feel worthless or without meaning, checks safety first and builds from concrete evidence that you matter. `zp-support` adds a controllability check, three need questions, if-then plans and safety planning; `zp-judge` handles value conflicts; `zp-life` adds default combinations for questions that need several methods. Starting needs only one question; it asks once what to call you and tells you what it notes.
+
 ## 2.1 · 2026-10-09 · 新增判断与复核
 
 - 新增 `zp-judge`（判断与决策）与 `zp-check`（复核）；`zp-question` 补充追问规则（最多两个问题并给模板）。

@@ -38,6 +38,30 @@ If the colleague then takes over and several weeks of evenings remain free, the 
 
 For the next similar situation, ask what is the same and what has changed. The comparison includes successful conditions and new capabilities, as well as earlier failures. Outcomes that have not been observed stay unknown.
 
+## When you feel “I can’t”
+
+Not every visit brings a decision; sometimes it is one sentence. Another fictional example.
+
+**Round one: be heard first.**
+
+> I am 165 cm. I have been called short since middle school and I still cannot look people in the eye. I am so tired of it. I feel I will never deserve good things.
+
+The workspace may answer only that:
+
+> Years of not looking up is not small. A nickname lasted so long it became you lowering your head before you walk into any room; that cost is real, and being tired of it makes sense. When was the last time? Say it if you want to.
+
+This round does not list strengths or rush to argue with “I don't deserve it”.
+
+**Round two: use what you have done.**
+
+> In college I did sponsorship outreach for the student union and raised 30,000. Now I do e-commerce support and coworkers pass me the difficult customers. On weekends I write cafe reviews, and a stranger said they went after reading one. I want to build something of my own but don't know what.
+
+The workspace may say:
+
+> “I don't deserve it” does not match what you have actually done. Getting people to keep talking while on guard has shown up in three different settings, and it has nothing to do with 165 cm. I want you to try one thing this week: publish a cafe review, send the link to the owner, and ask whether any customers came because of it. Whatever they say, you have new evidence. Come back and tell me, and we will adjust.
+
+It does not say “you will surely make it”. It separates “this cannot change” from “so I cannot”, finds a combination few others have in your own record, and shrinks the next step to something you can start today.
+
 ## Save and resume
 
 Open a folder in your Agent and ask it to make that folder your workspace. Add relevant files or point to their location. The Agent connects goals, personal context, circumstances, routes, and progress using the material you provide.

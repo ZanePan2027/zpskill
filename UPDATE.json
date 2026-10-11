@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
-  "notice": "新增两个 Skill：zp-judge（判断与决策：先判断成不成立，再让反方说满，给改、不改或再观察）和 zp-check（复核：AI 说做完了怎么确认、越聊越偏怎么重开）；zp-question 补充：说不清时最多问两个问题并给模板。",
+  "version": "1.2.0",
+  "notice": "新增 zp-perspective（视角互换）：站到对方的位置看事情，异性、老板与员工、买家与卖家、甲方与乙方、父母与子女都适用，给出几种有依据、可验证的读法，不替对方读心、不教操控。zp-self 新增发现独有优势，以及觉得没价值、没意义时先确认安全、再找到被需要的证据和一件愿意走的小事；zp-support 补做了也没用、实施意图和安全计划；zp-judge 补价值冲突；起步改为只带一个问题就行，第一次会问怎么称呼你。",
   "details_url": "https://github.com/ZanePan2027/zpskill/commits/main"
 }

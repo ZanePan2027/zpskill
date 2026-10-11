@@ -23,6 +23,18 @@ The collection began with question clarification, AI partner design, and self-re
 
 The psychological support method is independently written. Its source ledger distinguishes professional guidelines, psychological research, philosophical interpretation, and the practical adaptations used in the workbench.
 
+## 发现优势的依据 / Strengths discovery sources
+
+优势发现方法由本项目独立撰写，内部参考：盖洛普优势研究（天赋经反复使用变成稳定产出）、技能叠加（稀缺常来自组合，不来自单项第一）、班杜拉的自我效能理论（成就感主要来自亲身完成的事）、Wood、Perunovic 与 Lee（2009，自我肯定口号对低自尊者可能适得其反）。这些只是内部判断依据，不是效果承诺；有没有用，以你的实际反馈为准。
+
+The strengths-discovery method is independently written. Internal references: Gallup strengths research (talent becomes stable output through repeated use), skill stacking (scarcity often comes from combinations), Bandura's self-efficacy theory (confidence comes mainly from things done firsthand), and Wood, Perunovic and Lee (2009; self-affirming slogans can backfire for people with low self-esteem). They inform judgment only and promise no outcome; whether it helps is decided by your feedback.
+
+## 视角互换与意义的依据 / Perspective-taking and meaning sources
+
+视角互换从位置与激励出发（信号理论、信息不对称、权力依赖、重复博弈），再看认知与情绪、社会规范与角色、个体差异，生理与进化层证据最弱、放最后；心理特征的性别差异整体较小、重叠大（Hyde，2005）。意义部分参考 Steger 等对生命意义三成分的研究、对 mattering 的研究、自我决定理论、对习得性无助的修正（Maier 与 Seligman，2016）、叙事认同与叙事生涯，安全计划参考 Stanley 与 Brown 的思路。这些是独立写成的方法的内部依据，我没有逐篇通读原文，也不保证对某个人有效；要引用具体结论请回原文核对。参考“狗头军师”仅作启发，未复制其文本。
+
+Perspective-taking starts from position and incentives (signaling, information asymmetry, power dependence, repeated games), then cognition and emotion, social norms and roles, and individual differences; biological and evolutionary explanations are weakest and come last. Psychological sex differences are mostly small and overlapping (Hyde, 2005). The meaning material draws on Steger and colleagues on the three components of meaning, research on mattering, self-determination theory, the revision of learned helplessness (Maier and Seligman, 2016), narrative identity and career construction; safety planning follows Stanley and Brown's approach. They are internal references for an independently written method; the original texts were not read in full, and nothing here promises it will work for a given person. Check the originals before quoting a specific finding. "Goutoujunshi" was a stimulus only; none of its text was copied.
+
 ## 未来推演的方法 / Foresight methods
 
 采用战略前瞻、情景规划、系统思考、贝叶斯更新与决策理论，围绕使用者目标比较可能方向和准备。来源包括英国政府 Futures Toolkit、系统思考工具及 Stanford Encyclopedia of Philosophy 的相关条目；实际阅读范围与轻量适配见[学科与方法](../../skills/zp-life/references/foresight-methods.md)。

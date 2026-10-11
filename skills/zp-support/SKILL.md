@@ -2,7 +2,7 @@
 name: zp-support
 description: 心理支持与治疗辅助：以共同理解和可修正的问题模型整合心理学方法，按需讨论哲学与生活意义。用于倾诉、心理疗愈、自责焦虑、难控习惯、关系与自我价值困扰、咨询辅助，或研究和完善心理支持方法；不把方法研究自动转成个体干预，不替代诊断或治疗安排。
 metadata:
-  version: "1.0.0"
+  version: "1.2.0"
 ---
 
 # 心理支持与治疗辅助
@@ -26,6 +26,8 @@ metadata:
 | 想倾诉、受挫、孤独、难以说清感受 | [陪伴与共同理解](references/conversation.md) | 被较准确地理解、能继续说或愿意休息 |
 | 反复自责、担忧、关系中的痛苦，想理解模式 | [问题模型](references/formulation.md)；按当前环节读[方法选择](references/method-selection.md) | 形成本人可纠正的解释，或一次小尝试 |
 | 冲动当下、反复做不想做的事、靠行为逃开压力 | [冲动与行为循环](references/urges-and-habits.md) | 多一个可选择的间隙，或看清一段具体循环 |
+| 因身高、原生家庭等固定条件觉得“我不可能”（无论是否问起优势），想看到自己的优势和出路 | 先按需读[自我价值与行动](references/self-worth-and-action.md)接住；本人想往前时转 [发现独有优势](../zp-self/references/strengths-discovery.md) | 被接住，或拿到有证据的优势与一个小尝试 |
+| 觉得自己没价值、没人需要、不知道为什么活着、做什么都没劲 | 话里有“消失”“不想活”“结束自己”这类说法，或有想法、计划时，先读[专业帮助与安全](references/care-and-safety.md)；没有这类信号，读 [价值、意义与可能性](../zp-self/references/meaning-and-mattering.md)，用具体的事让他看见自己的分量 | 被听懂、有一件具体的事被看见，或有一个愿意走一步的小入口 |
 | 想行动却停留、害怕被评价、过度展示或在自贬与贬低别人之间摇摆 | [自我价值与行动](references/self-worth-and-action.md) | 分清评价与自我价值，找到本人愿意的小尝试 |
 | 明确想练习、改变，或练习后需要调整 | [改变与练习](references/practice.md) | 完成、缩小或主动停止一个合适练习 |
 | 想找专业帮助、准备或复盘咨询、疑似需要评估 | [专业帮助与安全](references/care-and-safety.md) | 可用的求助材料或符合当下情况的支持路径 |

@@ -41,6 +41,12 @@ Start with the parts the current task needs, then grow with real use. Bring mate
 
 Current understanding links back to your words and original material. History preserves the reasoning at the time. A new conversation reads the current record and resumes the actual next step.
 
+## Getting to know you, starting from one question
+
+You do not need to fill in anything first; one question is enough. The AI asks once what to call you and how you want to be accompanied, then uses that name and tone in every reply. When something you say would make later help fit you better (what you want, what you fear, what is off limits, what you have done), it notes it and tells you on the spot; if you say it got it wrong, your new wording wins. Over time it offers to gather the scattered notes into one “Who I am” page, which you review before it is final.
+
+Early on it is a reliable adviser; only as its understanding thickens does it feel like someone who knows you. Where there is no material, it says what is missing instead of pretending to know you.
+
 ## Let shared experience improve the next decision
 
 For a decision worth revisiting, preserve your view and the Agent's advice, the evidence available to each, and what would change either judgment. When results arrive, the Agent checks what happened and which conditions changed, then revises the same plan. Its own mistakes are part of that review.
