@@ -4,7 +4,7 @@
 
 > **Zane的人生经营Skills**：先认识你想过的生活，再陪你把眼前的事做成，不辜负。
 
-[![Version](https://img.shields.io/badge/version-1.3.0-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-1.3.1-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**

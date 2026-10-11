@@ -1,3 +1,8 @@
+# 2026-10-11 · 自动调用接通 / Auto-routing
+
+- `zp-life` 入口表补上：找工作交给 `zp-career`、被裁和合伙等场景的路径、要说具体规定时先读 `zp-guide`；所有 Skill 的共同口吻加入同一条规则。`zp-guide` 新增章节速查，联不了网时可用已标明出处的转述。
+- `zp-life` now routes job search to `zp-career`, adds paths for layoffs and partnerships, and reads `zp-guide` before stating concrete rules. `zp-guide` gains a chapter map and can fall back to attributed summaries offline.
+
 # 2026-10-11 · 认知觉醒 / Awareness
 
 - 新增 `zp-awaken`：一层一层往下看，发现想不到的出路，落到小实验。主线 11 个、全库 22 个。
