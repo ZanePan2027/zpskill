@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "zpskill：先认识你想过的生活，再陪你把眼前的事做成，不辜负。",
-    "version": "1.3.1"
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
       "description": "zpskill 全集：主线「过好你的人生」11 个，求职「走出象牙塔」11 个。",
       "source": "./",
       "strict": true,
-      "version": "1.3.1",
+      "version": "1.4.0",
       "category": "bundle",
       "keywords": [
         "life",

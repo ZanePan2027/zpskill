@@ -80,6 +80,8 @@ metadata:
 - 可访问性、性能与内容可替换性；
 - 原创化处理与禁用项。
 
+参考来自营销站或获奖站、而最终要放进招聘场景（作品集、个人站）时，解码之后再过一遍“招聘场景过滤”：首屏循环动画、滚动劫持、夸张的大图首屏这类机制通常不迁移，写明替代做法（反馈型动效、阅读进度、判断摘要先行的首屏）。动效与无障碍的底线见 [zp-site 的运行时底线](../zp-site/references/runtime-floor.md)。
+
 ### 4. 生成 Master Prompt
 
 按 [references/master-prompt-template.md](references/master-prompt-template.md) 输出。Prompt 应描述“结果与约束”，只在实现脆弱或技术栈已确定时指定具体做法。

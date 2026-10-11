@@ -1,3 +1,11 @@
+# 2026-10-11 · 走出象牙塔：底稿与成品分离 / Working notes vs. the finished piece
+
+- 简历、作品集、案例的成品里只留一个口径词、必要的时间词和正向表述，证据级别、取数口径、归因限制留在底稿和面试口径里；不再出现“不能作为……证据”“尚未验证”“证据等级”这类句子。
+- 反推自本人认可的最终简历与作品集：经历“结果在前、动作在后”、标题行放职位｜汇报线｜团队规模、摘要“一句本人判断加一个硬锚点”、中英文结构同构；案例首屏用“问题—决定—结果”摘要卡，多篇深读页串成单线阅读；本人立场句保留，只删无主体的升华。
+- 新增面试素材库、逐轮存档与撤回清单；offer、合同读法；应届生三方协议与违约成本的判断顺序；`check_resume_pdf.py --text-layer` 检查机器会怎样读简历。
+- 动效改为“底线必须守、数值作建议”；颜色一色一义；zp-redact 对精确经营数据改为提示一次、由本人决定。
+- Working notes (evidence grades, sourcing, attribution limits) stay out of the finished resume and portfolio; only one short qualifier word and positive phrasing remain. Derived from the owner-approved final resume and portfolio.
+
 # 2026-10-11 · 自动调用接通 / Auto-routing
 
 - `zp-life` 入口表补上：找工作交给 `zp-career`、被裁和合伙等场景的路径、要说具体规定时先读 `zp-guide`；所有 Skill 的共同口吻加入同一条规则。`zp-guide` 新增章节速查，联不了网时可用已标明出处的转述。

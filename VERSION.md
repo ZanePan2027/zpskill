@@ -1,6 +1,6 @@
 # Version
 
-zpskill **1.3.1** is the umbrella release. Each product keeps its own version.
+zpskill **1.4.0** is the umbrella release. Each product keeps its own version.
 
 | Product | Version | Details |
 |---|---|---|

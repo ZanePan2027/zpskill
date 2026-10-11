@@ -26,6 +26,10 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--require-link", action="store_true")
     parser.add_argument("--a4-tolerance", type=float, default=3.0,
                         help="Allowed page-size difference in PDF points.")
+    parser.add_argument("--text-layer", action="store_true",
+                        help="Also check what a machine reads: reading order, standard headings, "
+                             "contact details, split characters, smallest type, page-bottom fill. "
+                             "Results are hints, not pass/fail for design.")
     return parser.parse_args()
 
 
@@ -34,6 +38,70 @@ def annotation_subtype(annotation) -> str:
         return str(annotation.get_object().get("/Subtype", ""))
     except Exception:
         return ""
+
+
+HEADINGS = ("教育", "工作经历", "实习", "项目", "技能", "Education", "Experience", "Skills", "Projects")
+
+
+def text_layer_hints(reader) -> list[str]:
+    """What a parser sees: order, headings, contact, split glyphs, smallest type, bottom fill.
+
+    Built on pypdf visitor_text; coordinates are PDF points. Hints only: a person still
+    reads the rendered pages.
+    """
+    hints: list[str] = []
+    runs: list[tuple[int, float, float, float, str]] = []  # page, y, x, size, text
+    for index, page in enumerate(reader.pages, start=1):
+        def visit(text, cm, tm, font_dict, font_size, _i=index):
+            if text and text.strip():
+                # tm is the text matrix; combine with cm for the final position
+                x = tm[4] * cm[0] + tm[5] * cm[2] + cm[4]
+                y = tm[4] * cm[1] + tm[5] * cm[3] + cm[5]
+                size = abs(font_size * (tm[3] if tm[3] else 1) * (cm[3] if cm[3] else 1))
+                runs.append((_i, y, x, size, text.strip()))
+        try:
+            page.extract_text(visitor_text=visit)
+        except Exception:
+            return ["could not read text positions; skip text-layer hints"]
+    if not runs:
+        return ["no text positions found (scanned or outlined text?)"]
+
+    full = "\n".join(r[4] for r in runs)
+    # headings
+    found = [h for h in HEADINGS if h in full]
+    if not any(h in full for h in ("工作经历", "实习", "Experience")):
+        hints.append("no standard experience heading found (工作经历 / 实习 / Experience); parsers may not segment sections")
+    if not any(h in full for h in ("教育", "Education")):
+        hints.append("no standard education heading found (教育 / Education)")
+    # contact in the first 12 runs of reading order
+    head = " ".join(r[4] for r in runs[:12])
+    if not re.search(r"1[3-9]\d{9}|@[\w.-]+\.\w+|https?://", head):
+        hints.append("no phone / email / link among the first extracted lines; contact may be read last or lost")
+    # reading order: in extraction order, does y rise again by a lot on the same page (column jump)?
+    jumps = 0
+    prev = None
+    for page_no, y, x, size, t in runs:
+        if prev and prev[0] == page_no and y - prev[1] > 150 and abs(x - prev[2]) > 100:
+            jumps += 1
+        prev = (page_no, y, x, size, t)
+    if jumps:
+        hints.append(f"extraction order jumps back up the page {jumps} time(s) across columns; sidebar / two-column text may be read out of order")
+    # split glyphs: many runs of 1 character
+    singles = sum(1 for r in runs if len(r[4]) == 1)
+    if singles >= 4 and singles / len(runs) > 0.15:
+        hints.append(f"{singles} single-character text runs; letter-spaced headings or per-glyph drawing may be split by parsers")
+    # smallest type
+    sizes = [r[3] for r in runs if r[3] > 0]
+    if sizes and min(sizes) < 8:
+        hints.append(f"smallest type is {min(sizes):.1f} pt; check readability when printed")
+    # bottom fill of the last page (visual, informational)
+    last = [r for r in runs if r[0] == len(reader.pages)]
+    if last:
+        page_h = float(reader.pages[-1].mediabox.height)
+        lowest = min(r[1] for r in last)
+        fill = 1 - lowest / page_h
+        hints.append(f"last page: content reaches {fill:.0%} of page height from the top (page-bottom balance is a visual call; see visual-and-pdf-qa)")
+    return hints
 
 
 def run_pdfinfo(pdf: Path, *options: str) -> str:
@@ -183,6 +251,10 @@ def main() -> int:
     print(f"- pages: {len(reader.pages)} portrait A4")
     print(f"- extractable characters: {len(full_text.strip())}")
     print(f"- link annotations: {link_count}")
+    if args.text_layer:
+        print("- text-layer hints (machine reading, not a design verdict):")
+        for hint in text_layer_hints(reader):
+            print(f"  * {hint}")
     print("- structural checks only; render and review every page as continuous reading bands")
     return 0
 

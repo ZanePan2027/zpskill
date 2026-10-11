@@ -1,3 +1,7 @@
+# 2026-10-11 · 底稿与成品分离、面试素材库、机器阅读检查 / Working notes vs. finished piece
+
+- 见主 CHANGELOG 2026-10-11。内部工程与 Agent 测试，不等于真实用户验收，产品版本保持 1.0.0。
+
 # 2026-09-26 PDT · 任务与受众修订 / Task and audience revision
 
 - 按最终使用者的判断与动作组织成果，把背景转成取材、顺序和表达依据。

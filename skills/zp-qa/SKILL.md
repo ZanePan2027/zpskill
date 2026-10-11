@@ -41,7 +41,7 @@ metadata:
 | 证据类型 | 实际、测算、团队结果、同期变化 |
 | 出现载体 | 简历、首页、深读页、图注 |
 
-同一指标的日期、观察窗或证据类型不同，不得只统一数字。使用 [assets/claim-ledger.csv](assets/claim-ledger.csv) 对账。
+同一指标的日期、观察窗或证据类型不同，不得只统一数字。使用 [assets/claim-ledger.csv](assets/claim-ledger.csv) 对账。账本多一列 `status`：`verified`（有来源）、`unconfirmed`（他想不起能不能确认，先不用）、`retracted`（确认不对）。没有标成 verified 的数字，不进他要当面说出口的话（面试回答、谈薪稿）；`retracted` 的说法即使他以前说过也不能再写进稿子，见 [zp-career 的素材库](../zp-career/references/story-bank.md)。
 
 ## 2. 网站
 

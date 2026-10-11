@@ -46,11 +46,11 @@ metadata:
 
 ### 3. Position
 
-回答三个问题：招聘者为什么需要这个岗位；用户已经证明了什么；与同级候选人相比，哪组证据最值得先看。定位必须由事实交集得出，不用抽象人格或未来愿望冒充当前能力。
+回答三个问题：招聘者为什么需要这个岗位；用户已经证明了什么；与同级候选人相比，哪组证据最值得先看。定位必须由事实交集得出，不用抽象人格或未来愿望冒充当前能力。动笔前再列招聘方可能的疑虑和对应证据，写完用最上面三分之一核对，见[视觉与 PDF 验收](references/visual-and-pdf-qa.md)的“招聘方的疑虑清单与首屏”。
 
 ### 4. Allocate
 
-为每条信息指定唯一任务：入口负责获得继续阅读，摘要负责形成价值判断，经历负责证明职责与结果，补充模块负责处理教育、作品、技能或公开链接。模块名称和数量按岗位与证据选择，不固定使用“个人优势／核心产出／主要工作”。
+为每条信息指定唯一任务：入口负责获得继续阅读，摘要负责形成价值判断，经历负责证明职责与结果，补充模块负责处理教育、作品、技能或公开链接。模块名称和数量按岗位与证据选择，不固定使用“个人优势／核心产出／主要工作”。经历的篇幅按与目标岗位的相关性和近期程度递减：最近一两段写成负责人叙事，更早的按“项目加结果”压缩，职位名按实际保留，不为统一而改。标题行直接放职位、汇报线和团队规模（“品牌推广总监｜汇报 CEO｜团队 14 人”，英文写 Reports to CEO），这是最便宜的权责声明，正文不再写“我负责整体”。摘要条目允许一句带本人口吻的判断，但同条必须有一个硬锚点（数字、规模或清单）；判断句单独成条、后面没有锚点的，才算宣言。
 
 执行删除测试：删掉一项后若不损失新的招聘判断，合并或删除。相同主题可以概括—证明，不得原样重复。
 
@@ -70,7 +70,7 @@ metadata:
 
 新建简历或用户要求重新设计时，从空白画布做出可渲染的黑白线稿，再进入视觉；不能只在说明里声称做过线稿。先用实际内容检查共用对齐轴、页边距、列宽、字号层级、段落／模块间距、阅读顺序与分页。线稿作为内部工作稿保留即可，无需用户逐步批准。仅改句、翻译或微调已有版式时保留既有结构，按影响范围检查，不无故从零推倒。
 
-禁用品牌色、装饰、照片滤镜和动效。高不确定性时比较至少两种真正不同的信息结构；事实、参考和偏好已经足够明确时，可以提交一个有依据的结构，但必须做删除测试、替代结构反事实与页数竞争。只判断阅读顺序、信息重量、分页、行长、留白和入口是否成立。内部确认阅读顺序成立后进入视觉，不把内部检查变成用户审批。
+禁用品牌色、装饰、照片滤镜和动效（PDF 与 Word 恒无动效；HTML 简历只允许 hover、focus 反馈，不加入场动画）。高不确定性时比较至少两种真正不同的信息结构；事实、参考和偏好已经足够明确时，可以提交一个有依据的结构，但必须做删除测试、替代结构反事实与页数竞争。只判断阅读顺序、信息重量、分页、行长、留白和入口是否成立。内部确认阅读顺序成立后进入视觉，不把内部检查变成用户审批。
 
 比较方向时记录结构签名：入口形态、首个证据形态、主阅读轴、经历组织、数字角色、页面收束。两个方向至少有三项不同；“同一骨架换左右、换色或换标题”不算第二种方向。
 
@@ -88,7 +88,7 @@ metadata:
 
 ### 10. Verify
 
-仅生成PDF时运行 `scripts/check_resume_pdf.py` 做结构初检，再以高分辨率渲染全部页面；HTML实际打开检查，Word按可用文档工具渲染。按从上到下的连续阅读带逐段实看。检查视觉居中、上方分离与下方归属、同类间距、断行、孤字、裁切、重叠、页尾平衡、链接和打印可读性。
+仅生成PDF时运行 `scripts/check_resume_pdf.py`（加 `--text-layer` 看机器会怎么读：阅读顺序、标准小标题、联系方式、单字拆分）做结构初检，再以高分辨率渲染全部页面；HTML实际打开检查，Word按可用文档工具渲染。按从上到下的连续阅读带逐段实看。检查视觉居中、上方分离与下方归属、同类间距、断行、孤字、裁切、重叠、页尾平衡、链接和打印可读性。
 
 如果这是同一证据系统的另一语言版本，必须把已确认版本作为视觉参照重新对照，而不是只检查英文版自己是否“没有溢出”：比较标题层级、正文可读字号、行距、模块间距、色块比例、每页内容重心和页尾收束。语言变化会改变换行和信息高度，不能沿用原语言的字号／行距参数后直接放行。若新语言版明显更紧、更小、内容集中在页面上半部，或两页都出现无功能大空白，视觉验收失败，必须回到全局排版变量或分页重排。
 
@@ -98,13 +98,13 @@ metadata:
 
 ### 11. Multilingual Delivery
 
-When an English resume is requested, do not translate the Chinese PDF line by line. Rebuild the same evidence set for an English hiring reader:
+When an English resume is requested, do not translate the Chinese PDF line by line. Rebuild the same evidence set for an English hiring reader. Keep the structure parallel to the Chinese version (module order, number of items, every figure); localise only market-required fields, section names, and sentences that need tightening:
 
 - remove demographic fields that do not help the target market unless required;
 - rewrite labels, sentence rhythm, and business verbs in native professional English;
-- preserve dates, numbers, units, evidence type, ownership, and uncertainty exactly;
+- preserve dates, numbers, units and ownership exactly; keep the single qualifier word on an estimated or peak figure (approx., up to, peak, cumulative, model-estimated) and carry no longer disclaimers into the resume;
 - keep a terminology contract for brands and platforms; do not invent legal English company names;
-- preserve the actual metric and responsibility: a leader may present accountable team outcomes as leadership achievements; distinguish estimates, peaks, cumulative values and coincident trends when material, without unsolicited disclaimers;
+- preserve the actual metric and responsibility: a leader may present accountable team outcomes as leadership achievements; express limits with time words and weak-causality verbs (during my leadership, coincided with), not with negative sentences;
 - review for translationese, corporate publicity language, unexplained China-market jargon, and repeated summary/experience claims;
 - decide labels, numbering, chronology and section breaks by the target market and evidence density; removing Chinese-style labels or numbering is not automatically more native, and keeping them is not automatically wrong;
 - run an independent native-editing pass after factual translation: shorten over-complete arguments, remove management manifestos and Chinese rhetorical parallelism, while preserving distinctive personal judgment;
