@@ -1,3 +1,10 @@
+## 2.2 · 2026-10-11 · 把话说出去，回复更像朋友
+
+- 主线 skill 的回复统一为：先接住你那句话里具体的处境，再给一个起点，结尾只留一件事；不用编号清单、小标题和“我的建议是”这类顾问腔。涉及健康、钱、合同时带一句就医或风险提示。
+- Replies now follow one shape: catch the specific thing you said, give one starting point, end on one thing; no numbered lists, headings or consultant phrasing. Health, money and contracts get a one-line pointer to a professional or a risk.
+- `zp-life` 新增「把话说出去」：对具体的人说话时不套话术，每次现写，用你自己的口吻，一个目的，给对方体面的出口，给两个语气版本，并说对方可能的回应往哪接。想用愧疚或施压留人的请求，同一轮替你写出一条诚实说出担心的话。`zp-perspective` 读懂对方后可直接接上。
+- `zp-life` adds “Saying it”: for a specific person, no canned scripts; drafts are written fresh in your own voice, one purpose, with a graceful exit and two tones. For requests to guilt or pressure someone into staying, it writes an honest message about your worry in the same turn.
+
 ## 2.2 · 2026-10-11 · 补充心理援助渠道
 
 - `zp-support` 补上中国大陆非紧急心理援助渠道：全国统一心理援助热线 12356，青少年 12355，婚姻家庭与妇女儿童权益 12338；说明各自用途与限制，号码与时段以官方当前信息为准。

@@ -16,7 +16,7 @@ npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-questio
 
 | Skill | Version |
 |---|---|
-| zp-life | 2.1.1 |
+| zp-life | 2.2.0 |
 | zp-workspace | 1.2.0 |
 | zp-question | 1.0.1 |
 | zp-judge | 0.2.0 |
@@ -24,7 +24,7 @@ npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-questio
 | zp-partner | 1.0.0 |
 | zp-self | 1.2.0 |
 | zp-support | 1.2.1 |
-| zp-perspective | 0.1.0 |
+| zp-perspective | 0.1.1 |
 | zp-guide | 1.1.0 |
 
 [简体中文](README.md) · [English](README.en.md)

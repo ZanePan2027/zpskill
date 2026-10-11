@@ -4,7 +4,7 @@
 
 > **Zane的人生经营Skills**：先认识你想过的生活，再陪你把眼前的事做成，不辜负。
 
-[![Version](https://img.shields.io/badge/version-1.2.1-2563EB.svg?style=flat-square)](VERSION.md)
+[![Version](https://img.shields.io/badge/version-1.2.2-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：豆包、WorkBuddy、Claude Code、Codex，以及其他支持 Skills 的 Agent。**
@@ -128,7 +128,7 @@ claude plugin install zpskill@zpskill
 
 | 入口 | 你会得到 |
 |---|---|
-| `zp-life` | 人生参谋、未来推演：推荐路线、时间空间、实际成果和下一步 |
+| `zp-life` | 人生参谋、未来推演：推荐路线、时间空间、实际成果和下一步；也帮你把话说给具体的人，现写、用你的口吻，不套话术 |
 | `zp-question` | 把模糊的问题理清成真正要推进的事 |
 | `zp-judge` | 对“要不要改／要不要做”先判断成不成立，两边都让反方说满，再给改、不改或再观察与一个最小实验；数据少时不会只说“再等等” |
 | `zp-check` | 复核 AI 的进展和产出：AI 说做完了怎么确认、越聊越偏怎么重开、AI 总说好怎么办 |

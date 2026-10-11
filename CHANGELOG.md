@@ -1,3 +1,8 @@
+# 2026-10-11 · 把话说出去 / Saying it
+
+- `zp-life` 新增「把话说出去」：现写、用你的口吻、不套话术。
+- `zp-life` adds “Saying it”: fresh drafts in your own voice, no canned scripts.
+
 # 2026-10-11 · 补充心理援助渠道 / Support lines added
 
 - `zp-support` 补上中国大陆非紧急心理援助渠道（12356、12355、12338），说明用途与限制。
