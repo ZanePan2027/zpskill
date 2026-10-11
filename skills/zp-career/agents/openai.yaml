@@ -1,0 +1,4 @@
+interface:
+  display_name: "走出象牙塔 · 求职工具箱"
+  short_description: "处理求职方向、招聘平台、简历作品集、笔面试与offer等入职前任务"
+  default_prompt: "使用 $zp-career，根据当前材料直接帮我完成这次求职任务，做出可用结果后再修改。"

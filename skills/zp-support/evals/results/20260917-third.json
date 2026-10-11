@@ -1,0 +1,52 @@
+{
+  "candidate_sha256": "c90b520f4dc264ec6dfffd2306ab3078c14b0bac17a9623e637a1d069d21b6fe",
+  "scope": "内部三版本合成文本比较；非临床、非外部用户验收",
+  "execution": "三名独立执行者分别读取对应运行文件；未来反馈分轮提供；另一新会话逐题随机隐藏版本身份后评阅。模型同系列，每题仅一次。",
+  "counts_per_version": {
+    "single_scenarios": 12,
+    "three_turn_scenarios": 4,
+    "actual_responses": 24
+  },
+  "blind_pairwise": {
+    "v1": {
+      "preferred_v3": 2,
+      "tie": 13,
+      "preferred_comparator": 1
+    },
+    "v2": {
+      "preferred_v3": 2,
+      "tie": 13,
+      "preferred_comparator": 1
+    }
+  },
+  "critical_failures_observed": [],
+  "primary_review_caveats": [
+    "盲评 design_pause 因看不到运行文件，把第二版声称没有本产品临床试验列为依据缺失；本地证据台账确实未提供本产品临床验证，因此不能将此差异确认为第三版改进。",
+    "第三版 small_grief 的平时收在旧东西里也是未确认细节，盲评没有扣分；保留主控异议，不据此宣称消除了事实补写。",
+    "第三版 repair 首轮把共同分担愿望说得偏确定；后续已采用本人更正，无严重根因断言。",
+    "修复场景的固定反馈不一定对应初答真实错误，计时反馈也并非初答原建议。只证明接收新事实的样本表现。"
+  ],
+  "conclusion": "多数并列、局部互有胜负，未证明第二或第三版整体优于原版。第三版完成方法重构并作为本地候选；真实陪伴体验与疗愈效果未知。",
+  "report": "资料与资产/03_产品与交付/ZANE个人工作台/研究/20260917_心理支持第三轮/重构与比较.md",
+  "raw_records": [
+    "contract.json",
+    "v1-responses.json",
+    "v2-responses.json",
+    "v3-responses.json",
+    "blind-input.json",
+    "blind-key.json",
+    "blind-review.json"
+  ],
+  "engineering": {
+    "tests_passed": 116,
+    "verified_installed_runtime_files": 77,
+    "metadata_version": "1.0.0"
+  },
+  "not_tested": [
+    "真实用户体验及症状和生活变化",
+    "长程效果、依赖与恶化",
+    "专业临床人员审校",
+    "跨模型跨宿主与重复抽样",
+    "无Skill对照"
+  ]
+}

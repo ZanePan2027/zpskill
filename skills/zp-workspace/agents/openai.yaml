@@ -1,0 +1,4 @@
+interface:
+  display_name: "工作台搭建与维护"
+  short_description: "三工作台共享来源状态与接续"
+  default_prompt: "使用 $zp-workspace，从当前问题完成有用成果并按需要接续。"

@@ -1,3 +1,13 @@
+## 2.3 · 2026-10-11 · 认知觉醒
+
+- 新增 `zp-awaken`（认知觉醒）：沿事件、模式、结构、假设四层，一轮走一层，发现你想不到的出路，落到一个这周能做、能撤回的小实验；先认现实约束，不替你决定，不说你认知不够；明知却不做时看隐藏的承诺，学了没长进时看学法。
+- Added `zp-awaken`: four layers (event, pattern, structure, assumption), one per turn, to find the way out you had not thought of and turn it into a small reversible experiment; it respects real constraints, never says you lack awareness, looks at hidden commitments when you know but do not act, and at how you learn when you are not growing.
+
+## 2.2 · 2026-10-11 · 设定你自己的 AI 小伙伴
+
+- `zp-partner` 先用一张四行的起点卡设定小伙伴（怎么称呼你、它叫什么、想怎样被陪、最不想听的话），按相处阶段轻轻邀请：第一次对话不提，之后一两次再问一次，你主动提起时立刻接上；你说出的偏好会记下并当场告诉你。
+- `zp-partner` now starts from a four-line card (what to call you, its name, how you want to be accompanied, what you never want to hear) and invites you gradually: nothing in the first conversation, a gentle ask after a use or two, and it picks up at once when you raise it.
+
 ## 2.2 · 2026-10-11 · 把话说出去，回复更像朋友
 
 - 主线 skill 的回复统一为：先接住你那句话里具体的处境，再给一个起点，结尾只留一件事；不用编号清单、小标题和“我的建议是”这类顾问腔。涉及健康、钱、合同时带一句就医或风险提示。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "zp-support"
+  short_description: "陪伴情绪困扰、理解反复行为与自我价值，并衔接专业心理帮助"
+  default_prompt: "请使用 $zp-support，结合我愿意谈的经历帮助我理解当前困扰，并按我的需要陪伴或一起尝试改变。"

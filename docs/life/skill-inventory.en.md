@@ -67,6 +67,19 @@ Use zp-self. I feel too ordinary. Here are a few things I have done: …; what d
 
 Output: Grounded, tentative insights, open questions, and practical experiments; when you feel worthless or without meaning, safety first, then concrete evidence that you matter and one small step; with enough material, also what is distinctly yours, fitting routes, and one small step you can start today.
 
+## [Awareness](../../skills/zp-awaken/SKILL.md)
+
+`zp-awaken`
+
+Use when: You are stuck between two roads (stay or quit), the same problem keeps coming back, you know what to do but cannot do it, you study a lot but do not grow, or you feel “this is all there is”.
+
+```text
+Use zp-awaken. I have been at a state-owned company for eight years, dislike it, and dare not leave, but fear regret if I do.
+Use zp-awaken. Whenever it matters I back off, even though I know what to do.
+```
+
+Output: one layer per turn, from the event to the repeating pattern, the structure behind it, and the assumption you hold, to find the way out you had not thought of and turn it into a small reversible experiment this week. It respects real constraints, does not decide for you, and never says you lack awareness.
+
 ## [Perspective swap](../../skills/zp-perspective/SKILL.md)
 
 `zp-perspective`
@@ -97,13 +110,13 @@ Output: Specific companionship, a revisable understanding, a feasible small expe
 
 `zp-partner`
 
-Use when: Defining how an ongoing AI partner should work with you.
+Use when: You want to name your AI, set what it calls you and how it accompanies you, or define how an ongoing AI partner should work with you. It does not ask for setup in the first conversation; after a use or two it gently asks once.
 
 ```text
 Use zp-partner. Help me define an AI partner that can disagree, explain its evidence, and save progress.
 ```
 
-Output: Responsibilities, reasoning approach, communication, and memory arrangements.
+Output: A four-line starter card (what to call you, its name, how you want to be accompanied, what you never want to hear) saved in your AI partner page; when needed, a full identity card with responsibilities, reasoning approach, communication, and memory arrangements.
 
 ## [Set up, organize, and continue](../../skills/zp-workspace/SKILL.md)
 

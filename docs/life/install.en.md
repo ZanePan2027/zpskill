@@ -11,7 +11,7 @@ Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills. Cho
 For Agents listed in the installer, such as Codex and Claude Code, run in a terminal with Node.js and `npx` available:
 
 ```bash
-npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-guide
+npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-awaken zp-guide
 ```
 
 `--all` installs all Skills into every Agent the installer supports, with no prompts; reload Skills if the client requires it. To install into one Agent only, use `--skill "*" --agent <name>` instead. Omit `-g` to install only in the current project.
@@ -19,7 +19,7 @@ npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-questio
 Or ask your Agent:
 
 ```text
-Install the Life Skills (10: zp-life, zp-workspace, zp-question, zp-judge, zp-check, zp-partner, zp-self, zp-support, zp-perspective, zp-guide) from https://github.com/ZanePan2027/zpskill.
+Install the Life Skills (11: zp-life, zp-workspace, zp-question, zp-judge, zp-check, zp-partner, zp-self, zp-support, zp-perspective, zp-awaken, zp-guide) from https://github.com/ZanePan2027/zpskill.
 Then use zp-life to help me with this: ...
 ```
 

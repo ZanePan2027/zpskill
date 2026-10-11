@@ -1,3 +1,13 @@
+# 2026-10-11 · 认知觉醒 / Awareness
+
+- 新增 `zp-awaken`：一层一层往下看，发现想不到的出路，落到小实验。主线 11 个、全库 22 个。
+- Added `zp-awaken`: look layer by layer to find the unseen way out, ending in a small experiment. 11 main-line Skills, 22 in total.
+
+# 2026-10-11 · 设定你自己的 AI 小伙伴 / Set up your own AI partner
+
+- `zp-partner` 先用一张四行的起点卡设定，按相处阶段轻轻邀请，不在第一次对话就要求设定。
+- `zp-partner` starts from a four-line card and invites gradually, never in the first conversation.
+
 # 2026-10-11 · 把话说出去 / Saying it
 
 - `zp-life` 新增「把话说出去」：现写、用你的口吻、不套话术。

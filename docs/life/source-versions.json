@@ -1,12 +1,13 @@
 {
-  "zp-life": "2.2.0",
-  "zp-workspace": "1.2.0",
+  "zp-life": "2.2.2",
+  "zp-workspace": "1.2.1",
   "zp-question": "1.0.1",
-  "zp-judge": "0.2.0",
+  "zp-judge": "0.2.1",
   "zp-check": "0.1.0",
-  "zp-partner": "1.0.0",
+  "zp-partner": "1.1.0",
   "zp-self": "1.2.0",
-  "zp-support": "1.2.1",
+  "zp-support": "1.2.2",
   "zp-perspective": "0.1.1",
-  "zp-guide": "1.1.0"
+  "zp-awaken": "0.2.0",
+  "zp-guide": "1.1.1"
 }

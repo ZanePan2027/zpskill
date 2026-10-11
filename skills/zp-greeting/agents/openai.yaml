@@ -1,0 +1,4 @@
+interface:
+  display_name: "招聘打招呼与沟通"
+  short_description: "为BOSS直聘等招聘平台撰写岗位相关的首条消息和后续回复，按实际字数约束调整"
+  default_prompt: "使用 $zp-greeting，根据这个岗位与我的真实经历，直接写一条适合当前招聘平台的打招呼语。"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zane 问题转译器"
+  short_description: "把自然语言转成真实进展与可执行问题"
+  default_prompt: "Use $zp-question to identify what I want to move forward and turn it into a question I can use with any AI."
+policy:
+  allow_implicit_invocation: true

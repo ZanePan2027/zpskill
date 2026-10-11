@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zane AI 身份卡构建器"
+  short_description: "为 AI 协作定义人格、判断与行动方式"
+  default_prompt: "Use $zp-partner to design an identity card that helps my AI collaborator judge, act, remember, and learn with me."
+policy:
+  allow_implicit_invocation: true

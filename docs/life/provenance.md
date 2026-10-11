@@ -35,6 +35,12 @@ The strengths-discovery method is independently written. Internal references: Ga
 
 Perspective-taking starts from position and incentives (signaling, information asymmetry, power dependence, repeated games), then cognition and emotion, social norms and roles, and individual differences; biological and evolutionary explanations are weakest and come last. Psychological sex differences are mostly small and overlapping (Hyde, 2005). The meaning material draws on Steger and colleagues on the three components of meaning, research on mattering, self-determination theory, the revision of learned helplessness (Maier and Seligman, 2016), narrative identity and career construction; safety planning follows Stanley and Brown's approach. They are internal references for an independently written method; the original texts were not read in full, and nothing here promises it will work for a given person. Check the originals before quoting a specific finding. "Goutoujunshi" was a stimulus only; none of its text was copied.
 
+## 认知觉醒的依据 / Awareness sources
+
+认知觉醒的四层（事件、模式、结构、假设）借自系统思考的实践传统（Meadows、Senge），改假设比改行动更深来自双循环学习（Argyris 与 Schön）与转化学习（Mezirow），“明知却不做”的思路借自免疫改变（Kegan 与 Lahey，案例为主），学习部分借自元认知研究（Flavell）。流行读物《认知觉醒》（周岭）里的“三重脑”只是通俗比喻，这里不作依据。这些是内部依据，我没有逐篇通读原文，也不保证对某个人有效；认知只是影响结果的一部分，资源、环境和时机同样重要。
+
+The four layers (event, pattern, structure, assumption) borrow from the systems-thinking tradition (Meadows, Senge); changing assumptions runs deeper than changing actions, after double-loop learning (Argyris and Schön) and transformative learning (Mezirow); the “knowing but not doing” idea borrows from immunity to change (Kegan and Lahey, mostly case evidence); the learning part draws on metacognition research (Flavell). The popular book “Awakening of Cognition” and its “triune brain” is a popular metaphor and is not used as evidence here. These are internal references, not read in full, with no promise they work for a given person; awareness is only part of what drives results, alongside resources, environment and timing.
+
 ## 未来推演的方法 / Foresight methods
 
 采用战略前瞻、情景规划、系统思考、贝叶斯更新与决策理论，围绕使用者目标比较可能方向和准备。来源包括英国政府 Futures Toolkit、系统思考工具及 Stanford Encyclopedia of Philosophy 的相关条目；实际阅读范围与轻量适配见[学科与方法](../../skills/zp-life/references/foresight-methods.md)。
