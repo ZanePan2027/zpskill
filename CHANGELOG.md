@@ -1,3 +1,11 @@
+# 2026-10-12 · 为你放大优势，等面试再补细节 / Amplify, then explain in the interview
+
+- 简历和作品集的任务是放大你的优势、让 HR 想约你面试：证据级别、口径、边界留在底稿，成品里不写防御和解释，需要二次说明的留到面试当面补。
+- 每个岗位的“可信”长得不一样：设计师靠作品和版式，销售靠客户和数字，程序员靠代码和文档；视觉不预设克制，从你的岗位和审美里一步步走出来。你可以接入自己找的设计 Skill 做视觉层（文字和事实不动），也可以把作品集和简历合成一份 PDF。
+- 稿子里的每个动词和数字都要能在你给的原话里找到，写完逐句自检。
+- 回复里不再说“我读了指南第几章”“我已记在事项里”，也不一次倒出你的旧事。
+- Résumés and portfolios exist to amplify your strengths and earn an interview: evidence grades and caveats stay in working notes, details wait for the interview. Visual style follows your role, not a default of restraint; you may plug in your own design Skill for the visual layer.
+
 # 2026-10-11 · 机器阅读检查校准 / Text-layer check tuned
 
 - `check_resume_pdf.py --text-layer` 用真实两页简历校准：页码、页脚小字、逐字绘制的中文正文不再误报。
