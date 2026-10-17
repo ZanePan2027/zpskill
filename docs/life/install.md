@@ -65,9 +65,9 @@ claude plugin install zp-life@zpskill
 
 ## 更新
 
-可以直接说：“更新过好你的人生工作台。”Agent会按当前安装方式更新。使用插件时在Claude Code插件管理中更新zane-life。
+可以直接说：“更新过好你的人生工作台。”Agent会按当前安装方式更新。使用插件时在 Claude Code 插件管理中更新 zpskill。
 
-先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。产品目前为2.0，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。外部指南不是安装前置条件，工作台自己的方法和资料可以脱机使用。
+先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。主线产品目前为 2.4，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。外部指南不是安装前置条件，工作台自己的方法和资料可以脱机使用。
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-awaken zp-guide

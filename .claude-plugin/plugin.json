@@ -1,7 +1,7 @@
 {
   "name": "zpskill",
-  "version": "1.4.2",
-  "description": "Zane's life-management Skills: Start from the life you want, then get the thing in front of you done, without letting that life down. A long-term life adviser as the main line, plus tools for concrete things such as the job search.",
+  "version": "1.5.0",
+  "description": "Zane's life-management Skills: a long-term AI life adviser, practical outputs, and continuity through real feedback.",
   "author": {
     "name": "Zane"
   },

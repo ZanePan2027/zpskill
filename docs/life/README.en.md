@@ -6,6 +6,9 @@ This is the main line of zpskill. The overview and install commands are on the [
 
 | You want to… | Read |
 |---|---|
+| Get a usable result from the first question | [Your first task](first-task.en.md) |
+| Resume the same task in a later chat | [Continue later](continue.en.md) |
+| Keep preparing because you feel unready | [Check an avoidance loop](avoidance.en.md) |
 | See one full run from first question to ongoing support | [From the first question to continuing support](guide.en.md) |
 | Feel you cannot, or do not know what you are good at | [When you feel “I can’t”](guide.en.md#when-you-feel-i-cant) |
 | Copy a few prompts | [Ready-to-use prompts](examples.md) · [Start in a chat](chat-start.en.md) |

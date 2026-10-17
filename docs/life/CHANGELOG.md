@@ -1,3 +1,9 @@
+## 2.4 · 2026-10-17 · 共同检验回避循环
+
+- `zp-awaken` 升级为 0.3.0：按需看四层，先认真实缺口，再区分事实与预测；实验不强制，结果可成真、削弱或未知，未执行不当作预测成立。
+- 新增首次使用、接续背景与反馈、回避循环三条中英文教程；明确记忆依赖工作台访问，消息发送与发布需要对应授权。
+- Updated `zp-awaken` to 0.3.0 and added bilingual first-task, continuity, and avoidance tutorials. Real constraints come first; experiments are optional and uncertainty remains a valid result.
+
 ## 2.3 · 2026-10-11 · 认知觉醒
 
 - 新增 `zp-awaken`（认知觉醒）：沿事件、模式、结构、假设四层，一轮走一层，发现你想不到的出路，落到一个这周能做、能撤回的小实验；先认现实约束，不替你决定，不说你认知不够；明知却不做时看隐藏的承诺，学了没长进时看学法。

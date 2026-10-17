@@ -78,7 +78,7 @@ Use zp-awaken. I have been at a state-owned company for eight years, dislike it,
 Use zp-awaken. Whenever it matters I back off, even though I know what to do.
 ```
 
-Output: one layer per turn, from the event to the repeating pattern, the structure behind it, and the assumption you hold, to find the way out you had not thought of and turn it into a small reversible experiment this week. It respects real constraints, does not decide for you, and never says you lack awareness.
+Output: explore events, patterns, structures, and assumptions as needed. Recognize real constraints before separating facts from predictions. Check the evidence together and, if you want to try, choose a bounded action. The prediction may be supported, weakened, or remain uncertain. Rest, learning, and values are not automatically avoidance. See the [avoidance-loop tutorial](avoidance.en.md).
 
 ## [Perspective swap](../../skills/zp-perspective/SKILL.md)
 

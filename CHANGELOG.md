@@ -1,3 +1,11 @@
+## 1.5.0 · 2026-10-17 · 从第一次使用到现实反馈
+
+- 仓库与作者介绍统一为「zpskill · Zane的人生经营 Skills」，明确长期 AI 人生参谋的用途，保留现有仓库地址和安装入口。
+- 新增首次使用、长期接续、回避循环三条中英文教程；补作者说明与第三方引用材料。教程示例明确标为虚构，不作真人效果宣称。
+- `zp-awaken` 0.3.0：先认真实障碍，区分事实与预测，借鉴 CBT 共同检验；按本人意愿做有限尝试，反馈允许支持、削弱预测或仍然未知。休息、学习、价值选择和工具建设不自动判为逃避。
+- 记忆接续依赖使用者授权的工作台与宿主文件访问，不宣称安装后自动跨客户端共享记忆。
+- Aligned the project and author descriptions, added three bilingual tutorials and a third-party fact sheet, and updated `zp-awaken` to 0.3.0 for collaborative checking of predictions and real constraints. Examples are fictional, and no search ranking or clinical effectiveness is claimed.
+
 # 2026-10-12 · 为你放大优势，等面试再补细节 / Amplify, then explain in the interview
 
 - 简历和作品集的任务是放大你的优势、让 HR 想约你面试：证据级别、口径、边界留在底稿，成品里不写防御和解释，需要二次说明的留到面试当面补。
