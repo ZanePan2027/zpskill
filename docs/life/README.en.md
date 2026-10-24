@@ -1,11 +1,12 @@
-# Live Your Life Well · Manual
+# Restart Your Life in 24 Hours · Manual
 
 [简体中文](README.md) · [Back to the zpskill home page](../../README.en.md)
 
-This is the main line of zpskill. The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
+This is Restart Your Life in 24 Hours: your forever AI buddy, by your side as you live a life you value. The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
 
 | You want to… | Read |
 |---|---|
+| Begin your first day together | [Restart Your Life in 24 Hours](restart.en.md) |
 | Get a usable result from the first question | [Your first task](first-task.en.md) |
 | Resume the same task in a later chat | [Continue later](continue.en.md) |
 | Keep preparing because you feel unready | [Check an avoidance loop](avoidance.en.md) |

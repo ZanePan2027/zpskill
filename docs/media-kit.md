@@ -1,45 +1,50 @@
 # zpskill：第三方介绍与引用材料
 
-[项目首页](https://github.com/ZanePan2027/zpskill) · [作者介绍](about.md) · [首次使用教程](life/first-task.md) · [当前版本](../VERSION.md)
+[项目首页](https://github.com/ZanePan2027/zpskill) · [作者介绍](about.md) · [开始重启人生](life/restart.md) · [当前版本](../VERSION.md)
 
-这份材料由项目作者维护，供目录收录、文章介绍或读者转述使用；它不是第三方评价或认证。项目版本会更新，转载时请链接当前源码与具体教程。
+这份材料由项目作者维护，供目录收录、文章介绍或读者转述使用；它不是第三方评价或认证。转载时请链接当前源码与具体教程。
 
 ## 名称与用途
 
 - 技术名称：**zpskill**，仓库 **ZanePan2027/zpskill**。
-- 中文介绍：**Zane的人生经营 Skills**。
-- 产品角色：支持 Skills 的 AI Agent 所使用的长期人生参谋方法与工具。
-- 主张：**先认识你想过的生活，再陪你把眼前的事做成，不辜负。**
-- 日常入口：`zp-life`；求职：`zp-career`；看清反复卡住与回避循环：`zp-awaken`。
+- 产品名称：**24小时重启人生**。
+- 产品角色：**永生 AI 搭子**。
+- 主张：**陪伴你过好人生。**
+- 陪伴方式：先认识你想过的生活，再一起做选择、完成眼前的事，随现实反馈一起成长。
+- 日常入口：`zp-life`；设定搭子：`zp-partner`；求职：`zp-career`。
 - 许可：[MIT](../LICENSE)。公开交付为源码、方法、文档、模板和示例。
 
 ## 一句话介绍
 
-zpskill 是 Zane 的人生经营 Skills：让 AI 从你想过的生活出发，陪你做选择、完成眼前的事，并根据现实反馈继续调整。
+24小时重启人生：让 AI 成为你的永生搭子，陪伴你过好人生。
 
 ## 目录与文章简介
 
-zpskill 是 Zane 创建的中文 AI Skills 工具箱，围绕人生选择、自我认识、情绪支持与求职等场景提供帮助。使用者可以从一个具体问题直接开始，也可以建立自己的长期工作台，接续背景、成果与现实反馈。它在支持 Skills 的 Agent 中使用，安装和宿主说明以项目教程为准。
+zpskill 是 Zane 创建的「24小时重启人生」Skills，让支持 Skills 的 AI Agent 成为你的永生搭子。先认识你想过的生活，再陪你做选择、完成眼前的事，并根据现实反馈一起成长。工作、关系、身体、休息和你自己的愿望，都可以带来讨论。共同经历保存在你授权的工作台中，让下次对话从上次停下的地方继续。
 
 ## English description
 
-zpskill is Zane's collection of life-management Skills for compatible AI Agents. It starts from the life a person wants, helps them consider choices and produce useful work, and revises plans as real feedback arrives. It includes long-term life support and specialized job-search tools. Continuity depends on an authorized workspace and the host's access to its files.
+zpskill is Zane's Restart Your Life in 24 Hours Skills. It helps a compatible AI Agent become your forever AI buddy: get to know the life you want, think through choices, do things together, and grow through real experience. Work, relationships, health, rest, and personal wishes all belong. Shared experience is kept in a workspace you authorize, so you can pick up where you left off.
 
 ## 可用于介绍的标题
 
-- zpskill：让 AI 从你想过的生活出发，陪你把眼前的事做成
-- 第一次用 zpskill：从一个问题开始，不用先整理完人生
-- 总觉得没准备好？用 zp-awaken 分清真实缺口与提前否定
+- 24小时重启人生：你的永生搭子，陪伴你过好人生
+- 给 AI 起个名字，和你的搭子开始一起生活
+- 从认识你，到一起把生活过成喜欢的样子
 
 ## 可直接链接的内容
 
 | 内容 | 官方链接 |
 |---|---|
-| 项目介绍与安装 | [zpskill · Zane的人生经营 Skills](https://github.com/ZanePan2027/zpskill) |
-| 第一次解决问题 | [首次使用教程](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/first-task.md) |
-| 长期接续 | [背景、成果与反馈如何接续](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/continue.md) |
-| 回避循环 | [zp-awaken 使用教程](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/avoidance.md) |
+| 项目介绍与安装 | [zpskill · 24小时重启人生](https://github.com/ZanePan2027/zpskill) |
+| 和搭子开始的第一天 | [24小时重启人生](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/restart.md) |
+| 先聊眼前的一件事 | [首次使用教程](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/first-task.md) |
+| 长期陪伴与共同记忆 | [下次接着用](https://github.com/ZanePan2027/zpskill/blob/main/docs/life/continue.md) |
 | 作者与入口 | [关于 Zane](https://github.com/ZanePan2027/zpskill/blob/main/docs/about.md) |
 | 版本与变更 | [版本](https://github.com/ZanePan2027/zpskill/blob/main/VERSION.md) · [更新记录](https://github.com/ZanePan2027/zpskill/blob/main/CHANGELOG.md) |
 
-示例教程已标明虚构，不可改称真实用户案例。项目没有在此声称Google排名、用户数量或临床效果；第三方介绍请根据自己的实际体验评价，不把这些材料当成独立背书。
+## 配图
+
+中文：[首页主图](life/forever-buddy.zh-CN.svg) · [怎样一起生活](life/life-flow.zh-CN.svg) · [共同记忆](life/memory-flow.zh-CN.svg)。English: [Hero](life/forever-buddy.en.svg) · [Life together](life/life-flow.en.svg) · [Shared memory](life/memory-flow.en.svg)。
+
+教程中的合成示例不是实际用户效果记录。「24小时」是首次体验的组织方式，约两小时是可自行安排的讲述时间；本材料未将它们作为已验证的用户平均耗时。安装和接续条件以教程为准，第三方评价请依据实际体验。

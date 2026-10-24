@@ -1,61 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">从眼前的问题，推进你的求职</title>
+<title id="title">陪你找到工作，走向想过的生活</title>
 <desc id="desc">从任意求职任务开始，按需选择方法，完成当前成果，根据真实反馈继续。</desc>
 <defs>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif}
-.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#2563eb}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#1d4ed8}
-.title{font-size:38px;font-weight:700;fill:#0f172a}.subtitle{font-size:21px;fill:#64748b}
-.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#0f172a}.body{font-size:18px;fill:#526176}
+.brand{font-size:17px;font-weight:700;letter-spacing:1.2px;fill:#173F35}.entry{font-family:"SFMono-Regular",Consolas,monospace;font-size:18px;fill:#173F35}
+.title{font-size:38px;font-weight:700;fill:#173F35}.subtitle{font-size:21px;fill:#596C62}
+.index{font-size:15px;font-weight:600;fill:#94a3b8}.label{font-size:23px;font-weight:700;fill:#173F35}.body{font-size:18px;fill:#596C62}
 .strong .index{fill:#bfdbfe}.strong .label{fill:#fff}.strong .body{fill:#dbeafe}
-.loop{font-size:18px;font-weight:600;fill:#2563eb}.section{font-size:17px;fill:#64748b}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#526176}
+.loop{font-size:18px;font-weight:600;fill:#173F35}.section{font-size:17px;fill:#596C62}.bottom-label{font-size:22px;font-weight:700;fill:#183153}.bottom-body{font-size:18px;fill:#596C62}
 </style>
-<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#2563eb"/></marker>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 8 4 0 8Z" fill="#173F35"/></marker>
 </defs>
-<rect width="1200" height="720" rx="20" fill="#f8fafc"/>
-<path d="M316 310H339" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M588 310H611" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M860 310H883" stroke="#2563eb" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
-<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrow)"/>
+<rect width="1200" height="720" rx="20" fill="#F7F4EC"/>
+<path d="M316 310H339" stroke="#173F35" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M588 310H611" stroke="#173F35" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M860 310H883" stroke="#173F35" stroke-width="2.4" fill="none" marker-end="url(#arrow)"/>
+<path d="M1008 408V448Q1008 466 990 466H482Q464 466 464 448V414" fill="none" stroke="#C4D0C2" stroke-width="2" marker-end="url(#arrow)"/>
 <g class="stage">
-<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<rect x="72" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#C4D0C2" stroke-width="1.5"/>
 <text x="92" y="245" class="index" >01</text>
 <text x="92" y="298" class="label" >带来当前问题</text>
 <text x="92" y="350" class="body" >旧简历、岗位、项目材料</text>
 <text x="92" y="377" class="body" >面试问题或 offer 都可以</text>
 </g>
 <g class="strong">
-<rect x="344" y="212" width="240" height="196" rx="16" fill="#2563eb" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="344" y="212" width="240" height="196" rx="16" fill="#173F35" stroke="#173F35" stroke-width="1.5"/>
 <text x="364" y="245" class="index" >02</text>
 <text x="364" y="298" class="label" >按需选择方法</text>
 <text x="364" y="350" class="body" >补齐影响结果的信息</text>
 <text x="364" y="377" class="body" >直接处理当前任务</text>
 </g>
 <g class="stage">
-<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<rect x="616" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#C4D0C2" stroke-width="1.5"/>
 <text x="636" y="245" class="index" >03</text>
 <text x="636" y="298" class="label" >拿到可用成果</text>
 <text x="636" y="350" class="body" >简历、作品集与沟通文案</text>
 <text x="636" y="377" class="body" >面试练习或 offer 比较</text>
 </g>
 <g class="stage">
-<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#d7e1ed" stroke-width="1.5"/>
+<rect x="888" y="212" width="240" height="196" rx="16" fill="#fff" stroke="#C4D0C2" stroke-width="1.5"/>
 <text x="908" y="245" class="index" >04</text>
 <text x="908" y="298" class="label" >依据反馈继续</text>
 <text x="908" y="350" class="body" >招聘回复、面试与新条件</text>
 <text x="908" y="377" class="body" >调整当前稿与下一步</text>
 </g>
-<rect x="596" y="451" width="280" height="30" rx="10" fill="#f8fafc"/>
+<rect x="596" y="451" width="280" height="30" rx="10" fill="#F7F4EC"/>
 <text x="736" y="473" class="loop" text-anchor="middle">事实纠正，更新相关材料</text>
 <text x="72" y="520" class="section" >需要持续处理时</text>
-<rect x="72" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<rect x="72" y="542" width="512" height="112" rx="16" fill="#DDE9DB" stroke="#C4D0C2"/>
 <text x="96" y="584" class="bottom-label" >保存当前版本</text>
 <text x="96" y="621" class="bottom-body" >留下当前稿、关键事实和暂停点</text>
-<rect x="616" y="542" width="512" height="112" rx="16" fill="#eff6ff" stroke="#d5e5fa"/>
+<rect x="616" y="542" width="512" height="112" rx="16" fill="#DDE9DB" stroke="#C4D0C2"/>
 <text x="640" y="584" class="bottom-label" >接着上次继续</text>
 <text x="640" y="621" class="bottom-body" >读取项目文件，恢复实际暂停点</text>
-<text x="72" y="57" class="brand" >ZANE · 走出象牙塔</text>
-<rect x="790" y="31" width="338" height="38" rx="19" fill="#eaf2ff"/>
+<text x="72" y="57" class="brand" >ZPSKILL · 永生搭子的求职旅程</text>
+<rect x="790" y="31" width="338" height="38" rx="19" fill="#DDE9DB"/>
 <text x="959" y="57" class="entry" text-anchor="middle">zp-career</text>
-<text x="72" y="121" class="title" >从眼前的问题，推进你的求职</text>
-<text x="72" y="164" class="subtitle" >实习生、应届生与职场新人 · BOSS 等招聘平台的实际任务</text>
+<text x="72" y="121" class="title" >陪你找到工作，走向想过的生活</text>
+<text x="72" y="164" class="subtitle" >从一份简历到一次选择，搭子陪你走完入职前的每一步。</text>
 </svg>

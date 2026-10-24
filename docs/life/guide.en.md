@@ -18,7 +18,7 @@ This fictional example follows one decision as circumstances change.
 
 **First conversation.** You want to stay in Chengdu for family. Your boss offers remote work with constant availability and unclear travel requirements. You want two evenings of your own each week.
 
-The adviser might recommend negotiating fixed contact windows, a named person for daily execution, and travel expectations. It prepares a comparison and a message:
+Your buddy might recommend negotiating fixed contact windows, a named person for daily execution, and travel expectations. It prepares a comparison and a message:
 
 > I'd like to continue remotely. Let's agree on contact windows, the person responsible for daily execution, and travel arrangements. I can concentrate on the work during those windows and discuss urgent exceptions as they arise.
 

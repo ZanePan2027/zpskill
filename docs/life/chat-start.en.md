@@ -3,7 +3,7 @@
 Send this with your current situation:
 
 ```text
-Be my long-term life adviser. Start with the life I want and my current stage.
+Be my forever AI buddy. Start with the life I want and my current stage.
 Consider the people, resources, and circumstances involved. Explore the main
 possible directions, recommend a workable route, and explain timing and
 practical arrangements. Produce a useful draft or comparison now.

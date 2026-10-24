@@ -45,7 +45,7 @@ Current understanding links back to your words and original material. History pr
 
 You do not need to fill in anything first; one question is enough. The AI asks once what to call you and how you want to be accompanied, then uses that name and tone in every reply. When something you say would make later help fit you better (what you want, what you fear, what is off limits, what you have done), it notes it and tells you on the spot; if you say it got it wrong, your new wording wins. Over time it offers to gather the scattered notes into one “Who I am” page, which you review before it is final.
 
-Early on it is a reliable adviser; only as its understanding thickens does it feel like someone who knows you. Where there is no material, it says what is missing instead of pretending to know you.
+Your buddy starts by listening and grows to understand you through shared experience. Where there is no material, it says what is missing instead of pretending to know you.
 
 ## Let shared experience improve the next decision
 

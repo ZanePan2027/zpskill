@@ -1,8 +1,8 @@
-# Continue later: background, outputs, and feedback
+# Continue later: shared memories, a life together
 
 [简体中文](continue.md) · [First task](first-task.en.md) · [Manual](README.en.md)
 
-Continuity depends on workspace files you authorize and the content your current Agent can actually access. Installing zpskill does not create automatic shared memory across AI clients.
+Your forever buddy grows with your shared experience. Continuity depends on workspace files you authorize and the content your current Agent can actually access. Installing zpskill does not create automatic shared memory across AI clients.
 
 Open a folder you plan to keep using and ask:
 

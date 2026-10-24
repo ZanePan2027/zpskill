@@ -1,25 +1,29 @@
-# zpskill · Zane's Life-Management Skills
+# zpskill · Restart Your Life in 24 Hours
 
 [简体中文](README.md) | English
 
-> **Start from the life you want, then get the thing in front of you done.**
+> **Your forever AI buddy, living a life you value together.**
 
-zpskill is a collection of life-management Skills by Zane. It helps a compatible AI Agent work with you as a long-term life adviser: consider choices, produce useful work, and revise plans as real feedback arrives. Work, relationships, health, rest, and personal wishes all belong in that conversation.
+![Restart your life in 24 hours with your forever AI buddy](docs/life/forever-buddy.en.svg)
+
+zpskill is Zane's **Restart Your Life in 24 Hours** Skills. It helps an Agent that supports Skills become your **forever AI buddy**: get to know the life you want, think through choices together, get things done, and grow with real experience. Work, relationships, health, rest, and your own wishes are all part of your life together.
+
+Give your buddy a name and tell it how you like to spend time together. Think together when you feel lost, work together when something needs doing, or simply talk when you need company. Shared experience stays in a workspace you authorize, so you can pick up where you left off.
 
 [![Version](https://img.shields.io/badge/version-1.5.0-2563EB.svg?style=flat-square)](VERSION.md)
 [![License](https://img.shields.io/badge/license-MIT-16A34A.svg?style=flat-square)](LICENSE)
 
 **Works with Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: help people run their own lives well. It holds 22 Skills today: the main line, Live Your Life Well (11), and one concrete thing in a life, finding a job (11).
+zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing: be by your side as you live a life you find worth living. It holds 22 Skills today: the main line, Restart Your Life in 24 Hours (11), and one concrete thing in a life, finding a job (11).
 
-[First task](docs/life/first-task.en.md) · [Continue later](docs/life/continue.en.md) · [Feeling unready](docs/life/avoidance.en.md) · [Quick start](#quick-start) · [Install](#install) · [What's inside](#whats-inside) · [How it works](#how-zpskill-works) · [Manuals](#manuals) · [Changelog](CHANGELOG.md)
+[Start your restart](docs/life/restart.en.md) · [Bring one concern](docs/life/first-task.en.md) · [Continue later](docs/life/continue.en.md) · [Feeling unready](docs/life/avoidance.en.md) · [Quick start](#quick-start) · [Install](#install) · [What's inside](#whats-inside) · [How it works](#how-zpskill-works) · [Manuals](#manuals) · [Changelog](CHANGELOG.md)
 
-![How your life adviser works](docs/life/life-flow.en.svg)
+![How your AI buddy works](docs/life/life-flow.en.svg)
 
 ---
 
-## What zpskill solves
+## How your forever buddy stays by your side
 
 It does not help you live the most cost-efficient life. It helps you live the life you find worth living. An afternoon asleep in the sun with nothing to show for it can be a day worth having. So it first learns, in your own words, what life you want, what energizes you, and where your limits are, then helps you get the things you want done.
 
@@ -46,7 +50,7 @@ It does not help you live the most cost-efficient life. It helps you live the li
 Remember one entry: `zp-life`. After installing, tell your Agent:
 
 ```text
-Use zp-life.
+Use zp-life. Be my forever AI buddy and help me live a life I value.
 My job pays steadily, but last-minute requests fill every day.
 Over the next six months I want more time for family and my own writing.
 Help me understand how this could develop and what to do now.
@@ -86,7 +90,7 @@ Then tell your Agent “Use zp-life, help me…”.
 
 To install only part:
 
-**Main line: Live Your Life Well (11)**
+**Main line: Restart Your Life in 24 Hours (11)**
 
 ```bash
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-awaken zp-guide
@@ -125,13 +129,13 @@ It first tells you what changed, then updates. Your own life workspace and files
 
 ## What's inside
 
-### Main line: Live Your Life Well
+### Main line: Restart Your Life in 24 Hours
 
 Day to day you only need `zp-life`; the rest are used as the question requires.
 
 | Entry | What you get |
 |---|---|
-| `zp-life` | Life strategy and foresight: a route, timing and practical setting, usable outputs, next steps |
+| `zp-life` | Your forever buddy's everyday entry: get to know you, imagine possible futures together, make choices, and get today's work done |
 | `zp-question` | A vague question turned into what you actually want to move forward |
 | `zp-judge` | For “should I change / do this?”: first checks it is a real question, argues against both options, then gives change / don't / observe with one smallest experiment; with thin data it never just says “wait” |
 | `zp-check` | Re-check what an AI did or said: it claims it is done, the chat drifted, or it keeps agreeing with you |
@@ -139,7 +143,7 @@ Day to day you only need `zp-life`; the rest are used as the question requires.
 | `zp-awaken` | Awareness: recognize real constraints, explore patterns and assumptions as needed, and distinguish facts from predictions; check evidence together and choose a bounded experiment if you want to, then revise the judgment from feedback |
 | `zp-perspective` | Steps into the other side's position to say how they likely see and think about it: a partner, boss and employee, buyer and seller, client and vendor, parent and child; a few grounded readings plus one way to check |
 | `zp-support` | Emotional and psychological support, listening first when “I can’t” has taken hold; not a substitute for diagnosis or treatment |
-| `zp-partner` | Set up your own AI partner: a four-line starter card (what to call you, its name, how you want to be accompanied, what you never want to hear) that grows with you; a full identity card when you need one |
+| `zp-partner` | Set up your own AI buddy: a four-line starter card (what to call you, its name, how you want to be accompanied, what you never want to hear) that grows with you; a full identity card when you need one |
 | `zp-workspace` | Build a workspace, organize sources, resume where you stopped |
 | `zp-guide` | When you need concrete everyday options, consults the [How To Live Better guide](https://github.com/eternity4719/HowToLiveBetter) with sources |
 
@@ -189,17 +193,18 @@ zpskill handles one current thing at a time. For an important decision it keeps 
 
 ## Manuals
 
+- [Restart Your Life in 24 Hours: your first day together](docs/life/restart.en.md)
 - [Your first task: get something usable from one question](docs/life/first-task.en.md)
 - [Continue later: background, outputs, and feedback](docs/life/continue.en.md)
 - [Feeling unready: check an avoidance loop with zp-awaken](docs/life/avoidance.en.md)
 
-How to use it well once installed: [Live Your Life Well (main line)](docs/life/README.en.md) · [Finding a job](docs/career/README.en.md)
+How to use it well once installed: [Restart Your Life in 24 Hours (main line)](docs/life/README.en.md) · [Finding a job](docs/career/README.en.md)
 
 ---
 
 ## Author and support
 
-[About Zane and zpskill](docs/about.md) · [Why life-management Skills](docs/why-zpskill.md) · [Facts and materials for third-party introductions](docs/media-kit.md)
+[About Zane and zpskill](docs/about.md) · [Why a forever AI buddy](docs/why-zpskill.md) · [Facts and materials for third-party introductions](docs/media-kit.md)
 
 By [@ZanePan027](https://x.com/zanepan027) · [Xiaohongshu](https://xhslink.cn/o/7CiaOyzr6UO) · [Douyin](https://v.douyin.com/k3MsOVPRIKY)
 

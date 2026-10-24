@@ -1,6 +1,6 @@
 # Skill directory
 
-Start with `zp-life`. It selects the methods needed for your task. Use a specific entry below when its purpose fits.
+Start with `zp-life`, your forever AI buddy's everyday entry. It gets to know you, helps you choose, and works with you on what matters today. Use a specific entry below when its purpose fits.
 
 [简体中文](skill-inventory.md) · [Walkthrough](guide.en.md)
 
@@ -106,17 +106,17 @@ Explore it with me when I want to, without assigning an exercise every time.
 
 Output: Specific companionship, a revisable understanding, a feasible small experiment, or consultation preparation. Philosophy and meaning are discussed when relevant.
 
-## [AI partner setup](../../skills/zp-partner/SKILL.md)
+## [AI buddy setup](../../skills/zp-partner/SKILL.md)
 
 `zp-partner`
 
-Use when: You want to name your AI, set what it calls you and how it accompanies you, or define how an ongoing AI partner should work with you. It does not ask for setup in the first conversation; after a use or two it gently asks once.
+Use when: You want to name your AI, set what it calls you and how it accompanies you, or define how your ongoing AI buddy should work with you. It does not ask for setup in the first conversation; after a use or two it gently asks once.
 
 ```text
-Use zp-partner. Help me define an AI partner that can disagree, explain its evidence, and save progress.
+Use zp-partner. Help me define an AI buddy that can disagree, explain its evidence, and save progress.
 ```
 
-Output: A four-line starter card (what to call you, its name, how you want to be accompanied, what you never want to hear) saved in your AI partner page; when needed, a full identity card with responsibilities, reasoning approach, communication, and memory arrangements.
+Output: A four-line starter card (what to call you, its name, how you want to be accompanied, what you never want to hear) saved in your AI buddy page; when needed, a full identity card with responsibilities, reasoning approach, communication, and memory arrangements.
 
 ## [Set up, organize, and continue](../../skills/zp-workspace/SKILL.md)
 

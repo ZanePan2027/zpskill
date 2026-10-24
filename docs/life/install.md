@@ -14,14 +14,14 @@ Codex、Claude Code 等安装器已列出的 Agent，可在终端执行：
 npx -y skills add ZanePan2027/zpskill -g --skill zp-life zp-workspace zp-question zp-judge zp-check zp-partner zp-self zp-support zp-perspective zp-awaken zp-guide
 ```
 
-这条命令安装「过好你的人生」的这几个 Skill。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。`--all` 会安装全部 Skills，并装进安装器支持的所有 Agent，无需逐个选择；完成后按客户端要求重载。只想装到某一个 Agent 时，改用 `--skill "*" --agent <名称>`。
+这条命令安装「24小时重启人生」的这几个 Skill。`-g` 表示全局安装；只安装到当前项目时省略 `-g`。`--all` 会安装全部 Skills，并装进安装器支持的所有 Agent，无需逐个选择；完成后按客户端要求重载。只想装到某一个 Agent 时，改用 `--skill "*" --agent <名称>`。
 
 需要先安装 Node.js，并确保终端可以使用 `npx`。
 
 也可以直接告诉 Agent：
 
 ```text
-请从 https://github.com/ZanePan2027/zpskill 安装「过好你的人生」的 11 个 Skills（zp-life、zp-workspace、zp-question、zp-judge、zp-check、zp-partner、zp-self、zp-support、zp-perspective、zp-awaken、zp-guide），
+请从 https://github.com/ZanePan2027/zpskill 安装「24小时重启人生」的 11 个 Skills（zp-life、zp-workspace、zp-question、zp-judge、zp-check、zp-partner、zp-self、zp-support、zp-perspective、zp-awaken、zp-guide），
 然后使用 zp-life，帮我处理这件事：……
 ```
 
@@ -65,7 +65,7 @@ claude plugin install zp-life@zpskill
 
 ## 更新
 
-可以直接说：“更新过好你的人生工作台。”Agent会按当前安装方式更新。使用插件时在 Claude Code 插件管理中更新 zpskill。
+可以直接说：“更新24小时重启人生工作台。”Agent会按当前安装方式更新。使用插件时在 Claude Code 插件管理中更新 zpskill。
 
 先保留自己修改过的 Skill 文件，再执行同一条快速安装指令，按安装界面更新。主线产品目前为 2.4，文件内容仍会继续修订；不要仅凭版本号相同跳过更新，以仓库修订日期和提交识别内容。外部指南不是安装前置条件，工作台自己的方法和资料可以脱机使用。
 

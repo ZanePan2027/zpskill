@@ -1,48 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-<title id="title">真正的人生参谋，从你的生活出发</title><desc id="desc">想过的生活 → 当前阶段 → 人与局势 → 可能未来 → 路线与时间空间 → 做成眼前的事 → 根据反馈调整</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#3970ba" stroke-width="1.5"/></marker></defs>
-<rect width="1200" height="720" rx="24" fill="#f4f7fc"/>
-<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
-<text x="40" y="65" font-size="30" font-weight="700" fill="#172b4d">真正的人生参谋，从你的生活出发</text>
-<text x="40" y="110" font-size="18" fill="#52647e">你讲情况、表达取舍、带回反馈；AI连起判断、路线和实际成果。</text>
-<rect x="40" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="60" y="202" font-size="15" font-weight="700" fill="#3970ba">01</text>
-<text x="60" y="248" font-size="22" font-weight="650" fill="#172b4d">想过的生活</text>
-<text x="60" y="289" font-size="17" fill="#52647e">自己的目标与取舍</text>
-<rect x="330" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="350" y="202" font-size="15" font-weight="700" fill="#3970ba">02</text>
-<text x="350" y="248" font-size="22" font-weight="650" fill="#172b4d">当前阶段</text>
-<text x="350" y="289" font-size="17" fill="#52647e">已经发生的进展与机会</text>
-<rect x="620" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="640" y="202" font-size="15" font-weight="700" fill="#3970ba">03</text>
-<text x="640" y="248" font-size="22" font-weight="650" fill="#172b4d">人与局势</text>
-<text x="640" y="289" font-size="17" fill="#52647e">利益、行为、情绪与资源</text>
-<rect x="910" y="170" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="930" y="202" font-size="15" font-weight="700" fill="#3970ba">04</text>
-<text x="930" y="248" font-size="22" font-weight="650" fill="#172b4d">可能未来</text>
-<text x="930" y="289" font-size="17" fill="#52647e">行动之后可能怎样变化</text>
-<rect x="910" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="930" y="452" font-size="15" font-weight="700" fill="#3970ba">05</text>
-<text x="930" y="498" font-size="22" font-weight="650" fill="#172b4d">路线与时间空间</text>
-<text x="930" y="539" font-size="17" fill="#52647e">投入、顺序、窗口与备路</text>
-<rect x="620" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="640" y="452" font-size="15" font-weight="700" fill="#3970ba">06</text>
-<text x="640" y="498" font-size="22" font-weight="650" fill="#172b4d">做成眼前的事</text>
-<text x="640" y="539" font-size="17" fill="#52647e">可用成果与授权行动</text>
-<rect x="330" y="420" width="250" height="155" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="350" y="452" font-size="15" font-weight="700" fill="#3970ba">07</text>
-<text x="350" y="498" font-size="22" font-weight="650" fill="#172b4d">根据反馈调整</text>
-<text x="350" y="539" font-size="17" fill="#52647e">修正路线，继续了解你</text>
-<path d="M290 247H325" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M580 247H615" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M870 247H905" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M1035 325V414" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M910 497H875" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M620 497H585" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M455 575V635H20V247H34" stroke="#3970ba" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="40" y="420" width="250" height="155" rx="18" fill="#e6eefb"/>
-<text x="60" y="457" font-size="19" fill="#172b4d">知识让参谋更有见识</text>
-<text x="60" y="497" font-size="16" fill="#172b4d">补遗漏办法，算实际付出</text>
-<text x="60" y="537" font-size="16" fill="#172b4d">核对证据，把专业话说清</text>
-<text x="40" y="685" font-size="17" fill="#52647e">经历越多，理解越深；每次帮助仍从你此刻想过的生活开始。</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">永生搭子怎样陪你过好人生</title><desc id="desc">认识生活、一起选择、一起行动、根据共同经历继续。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#173F35" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="1200" height="760" rx="24" fill="#F7F4EC"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif"><text x="56" y="54" font-size="15" fill="#173F35" font-weight="650">ZPSKILL / 永生搭子</text><text x="56" y="113" font-size="34" fill="#173F35" font-weight="700">陪伴你过好人生，从认识你开始</text><text x="56" y="155" font-size="18" fill="#596C62" font-weight="400">你讲生活里的事，搭子陪你一起想、一起做，再接着往前走。</text><rect x="56" y="205" width="508" height="190" rx="18" fill="#DDE9DB" stroke="#C4D0C2"/><text x="81" y="240" font-size="14" fill="#B44D35" font-weight="650">01</text><text x="81" y="286" font-size="26" fill="#173F35" font-weight="650">认识你想过的生活</text><text x="81" y="325" font-size="18" fill="#596C62" font-weight="400">你的经历、愿望与取舍</text><text x="81" y="354" font-size="18" fill="#596C62" font-weight="400">此刻的阶段、人和现实条件</text><rect x="636" y="205" width="508" height="190" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="661" y="240" font-size="14" fill="#B44D35" font-weight="650">02</text><text x="661" y="286" font-size="26" fill="#173F35" font-weight="650">陪你一起做选择</text><text x="661" y="325" font-size="18" fill="#596C62" font-weight="400">看看未来可能怎样，比较几条路</text><text x="661" y="354" font-size="18" fill="#596C62" font-weight="400">一起安排时间、投入与下一步</text><rect x="636" y="440" width="508" height="190" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="661" y="475" font-size="14" fill="#B44D35" font-weight="650">03</text><text x="661" y="521" font-size="26" fill="#173F35" font-weight="650">把眼前的事一起做成</text><text x="661" y="560" font-size="18" fill="#596C62" font-weight="400">一段沟通、一份简历、一个开始</text><text x="661" y="589" font-size="18" fill="#596C62" font-weight="400">需要时认真听你说，陪你歇一歇</text><rect x="56" y="440" width="508" height="190" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="81" y="475" font-size="14" fill="#B44D35" font-weight="650">04</text><text x="81" y="521" font-size="26" fill="#173F35" font-weight="650">带着共同经历继续</text><text x="81" y="560" font-size="18" fill="#596C62" font-weight="400">把发生的事带回来，一起改判断</text><text x="81" y="589" font-size="18" fill="#596C62" font-weight="400">保存有用的理解，下次接着走</text><path d="M573 300H621" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M890 404V427" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M626 535H579" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M40 535H24V300H42" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><text x="56" y="705" font-size="20" fill="#173F35" font-weight="500">你决定什么样的人生值得，搭子陪你把日子过成自己的样子。</text></g></svg>

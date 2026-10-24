@@ -1,45 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-<title id="title">Experience becomes useful context</title><desc id="desc">One current understanding, with original sources and usable outputs</desc>
-<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3970ba" stroke-width="1.7"/></marker></defs>
-<rect width="1200" height="760" rx="24" fill="#f4f7fc"/>
-<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Arial,sans-serif">
-<text x="56" y="67" font-size="32" font-weight="700" fill="#172b4d">Experience becomes useful context</text>
-<text x="56" y="109" font-size="18" fill="#52647e">One current understanding, with original sources and usable outputs</text>
-<rect x="56" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="80" y="205" font-size="15" font-weight="700" fill="#3970ba">01</text>
-<text x="80" y="246" font-size="21" font-weight="650" fill="#172b4d">Bring new information</text>
-<text x="80" y="284" font-size="15" fill="#52647e">A conversation, file, or event</text>
-<text x="80" y="312" font-size="15" fill="#52647e">Your choices and what happened</text>
-<rect x="436" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="460" y="205" font-size="15" font-weight="700" fill="#3970ba">02</text>
-<text x="460" y="246" font-size="21" font-weight="650" fill="#172b4d">Keep the source</text>
-<text x="460" y="284" font-size="15" fill="#52647e">Who said it and when</text>
-<text x="460" y="312" font-size="15" fill="#52647e">Original material stays accessible</text>
-<rect x="816" y="168" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="840" y="205" font-size="15" font-weight="700" fill="#3970ba">03</text>
-<text x="840" y="246" font-size="21" font-weight="650" fill="#172b4d">Connect the meaning</text>
-<text x="840" y="284" font-size="15" fill="#52647e">Goals, personal context, people</text>
-<text x="840" y="312" font-size="15" fill="#52647e">Resources, circumstances, and routes</text>
-<rect x="56" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="80" y="459" font-size="15" font-weight="700" fill="#3970ba">06</text>
-<text x="80" y="500" font-size="21" font-weight="650" fill="#172b4d">Continue next time</text>
-<text x="80" y="538" font-size="15" fill="#52647e">Read the current understanding</text>
-<text x="80" y="566" font-size="15" fill="#52647e">Resume the actual next step</text>
-<rect x="436" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="460" y="459" font-size="15" font-weight="700" fill="#3970ba">05</text>
-<text x="460" y="500" font-size="21" font-weight="650" fill="#172b4d">Keep what changed</text>
-<text x="460" y="538" font-size="15" fill="#52647e">Current plan and case progress</text>
-<text x="460" y="566" font-size="15" fill="#52647e">Useful outputs and lessons</text>
-<rect x="816" y="422" width="328" height="180" rx="18" fill="white" stroke="#d4dfef"/>
-<text x="840" y="459" font-size="15" font-weight="700" fill="#3970ba">04</text>
-<text x="840" y="500" font-size="21" font-weight="650" fill="#172b4d">Revise the decision</text>
-<text x="840" y="538" font-size="15" fill="#52647e">New behavior changes the assessment</text>
-<text x="840" y="566" font-size="15" fill="#52647e">New goals change the route</text>
-<path d="M388 258H426" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M768 258H806" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M980 352V411" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M810 512H773" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M430 512H393" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<path d="M40 512H24V258H45" fill="none" stroke="#3970ba" stroke-width="2.4" marker-end="url(#arrow)"/>
-<text x="56" y="682" font-size="18" fill="#334a68">A growing understanding of you, open to change as your life changes.</text>
-</g></svg>
+<title id="title">Your forever buddy and shared memories</title><desc id="desc">Listen, keep shared experience, understand change, revise, and continue.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#173F35" stroke-width="1.5"/></marker></defs>
+<rect x="0" y="0" width="1200" height="760" rx="24" fill="#F7F4EC"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif"><text x="56" y="54" font-size="15" fill="#173F35" font-weight="650">ZPSKILL / SHARED MEMORIES</text><text x="56" y="113" font-size="32" fill="#173F35" font-weight="700">Shared experience helps your buddy know you.</text><text x="56" y="155" font-size="18" fill="#596C62" font-weight="400">Your buddy keeps useful context, work, and changes in a workspace you authorize.</text><rect x="56" y="208" width="328" height="185" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="81" y="243" font-size="14" fill="#B44D35" font-weight="650">01</text><text x="81" y="289" font-size="23" fill="#173F35" font-weight="650">Listen to your story</text><text x="81" y="328" font-size="17" fill="#596C62" font-weight="400">A conversation or a file</text><text x="81" y="357" font-size="17" fill="#596C62" font-weight="400">Start with what matters now</text><rect x="436" y="208" width="328" height="185" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="461" y="243" font-size="14" fill="#B44D35" font-weight="650">02</text><text x="461" y="289" font-size="23" fill="#173F35" font-weight="650">Keep shared experience</text><text x="461" y="328" font-size="17" fill="#596C62" font-weight="400">Keep your words and sources</text><text x="461" y="357" font-size="17" fill="#596C62" font-weight="400">You choose what to save</text><rect x="816" y="208" width="328" height="185" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="841" y="243" font-size="14" fill="#B44D35" font-weight="650">03</text><text x="841" y="289" font-size="23" fill="#173F35" font-weight="650">Understand change</text><text x="841" y="328" font-size="17" fill="#596C62" font-weight="400">Wishes and circumstances</text><text x="841" y="357" font-size="17" fill="#596C62" font-weight="400">Connect new facts to your life</text><rect x="816" y="438" width="328" height="185" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="841" y="473" font-size="14" fill="#B44D35" font-weight="650">04</text><text x="841" y="519" font-size="23" fill="#173F35" font-weight="650">Rethink together</text><text x="841" y="558" font-size="17" fill="#596C62" font-weight="400">Revise as life changes</text><text x="841" y="587" font-size="17" fill="#596C62" font-weight="400">Correct what your buddy got wrong</text><rect x="436" y="438" width="328" height="185" rx="18" fill="#FFFEFA" stroke="#C4D0C2"/><text x="461" y="473" font-size="14" fill="#B44D35" font-weight="650">05</text><text x="461" y="519" font-size="23" fill="#173F35" font-weight="650">Keep what helps</text><text x="461" y="558" font-size="17" fill="#596C62" font-weight="400">Work, progress, next steps</text><text x="461" y="587" font-size="17" fill="#596C62" font-weight="400">Learn from actual results</text><rect x="56" y="438" width="328" height="185" rx="18" fill="#DDE9DB" stroke="#C4D0C2"/><text x="81" y="473" font-size="14" fill="#B44D35" font-weight="650">06</text><text x="81" y="519" font-size="23" fill="#173F35" font-weight="650">Pick up next time</text><text x="81" y="558" font-size="17" fill="#596C62" font-weight="400">Find where you stopped</text><text x="81" y="587" font-size="17" fill="#596C62" font-weight="400">Continue from life as it is now</text><path d="M394 300H422" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M774 300H802" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M980 403V425" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M806 530H779" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M426 530H399" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><path d="M41 530H24V300H42" fill="none" stroke="#173F35" stroke-width="2" marker-end="url(#arrow)"/><text x="56" y="705" font-size="20" fill="#173F35" font-weight="500">A growing bond, open to change as your real life changes.</text></g></svg>
