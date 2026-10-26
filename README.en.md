@@ -4,7 +4,7 @@
 
 > **An AI companion for life's journey, by your side as you live a life you value.**
 
-![Restart your life in 24 hours with your AI companion for life's journey](docs/life/forever-buddy.en.svg)
+![Restart your life in 24 hours with your AI companion for life's journey](docs/life/life-buddy.en.svg)
 
 zpskill is Zane's **Restart Your Life in 24 Hours** Skills. It helps an Agent that supports Skills become your **AI companion for life's journey**: get to know the life you want, think through choices together, get things done, and grow with real experience. Work, relationships, health, rest, and your own wishes are all part of your life together.
 

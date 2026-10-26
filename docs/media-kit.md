@@ -45,6 +45,6 @@ zpskill is Zane's Restart Your Life in 24 Hours Skills. It helps a compatible AI
 
 ## 配图
 
-中文：[首页主图](life/forever-buddy.zh-CN.svg) · [怎样一起生活](life/life-flow.zh-CN.svg) · [共同记忆](life/memory-flow.zh-CN.svg)。English: [Hero](life/forever-buddy.en.svg) · [Life together](life/life-flow.en.svg) · [Shared memory](life/memory-flow.en.svg)。
+中文：[首页主图](life/life-buddy.zh-CN.svg) · [怎样一起生活](life/life-flow.zh-CN.svg) · [共同记忆](life/memory-flow.zh-CN.svg)。English: [Hero](life/life-buddy.en.svg) · [Life together](life/life-flow.en.svg) · [Shared memory](life/memory-flow.en.svg)。
 
 教程中的合成示例不是实际用户效果记录。「24小时」是首次体验的组织方式，约两小时是可自行安排的讲述时间；本材料未将它们作为已验证的用户平均耗时。安装和接续条件以教程为准，第三方评价请依据实际体验。
