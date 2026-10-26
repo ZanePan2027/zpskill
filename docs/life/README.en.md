@@ -2,7 +2,7 @@
 
 [简体中文](README.md) · [Back to the zpskill home page](../../README.en.md)
 
-This is Restart Your Life in 24 Hours: your forever AI buddy, by your side as you live a life you value. The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
+This is Restart Your Life in 24 Hours: your AI companion for life's journey, by your side as you live a life you value. The overview and install commands are on the [home page](../../README.en.md); this is how to use it well once installed.
 
 | You want to… | Read |
 |---|---|

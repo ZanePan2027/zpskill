@@ -2,11 +2,11 @@
 
 [简体中文](README.md) | English
 
-> **Your forever AI buddy, living a life you value together.**
+> **An AI companion for life's journey, by your side as you live a life you value.**
 
-![Restart your life in 24 hours with your forever AI buddy](docs/life/forever-buddy.en.svg)
+![Restart your life in 24 hours with your AI companion for life's journey](docs/life/forever-buddy.en.svg)
 
-zpskill is Zane's **Restart Your Life in 24 Hours** Skills. It helps an Agent that supports Skills become your **forever AI buddy**: get to know the life you want, think through choices together, get things done, and grow with real experience. Work, relationships, health, rest, and your own wishes are all part of your life together.
+zpskill is Zane's **Restart Your Life in 24 Hours** Skills. It helps an Agent that supports Skills become your **AI companion for life's journey**: get to know the life you want, think through choices together, get things done, and grow with real experience. Work, relationships, health, rest, and your own wishes are all part of your life together.
 
 Give your buddy a name and tell it how you like to spend time together. Think together when you feel lost, work together when something needs doing, or simply talk when you need company. Shared experience stays in a workspace you authorize, so you can pick up where you left off.
 
@@ -23,7 +23,7 @@ zpskill is created by [Zane](https://github.com/ZanePan2027) and does one thing:
 
 ---
 
-## How your forever buddy stays by your side
+## How your AI companion stays by your side
 
 It does not help you live the most cost-efficient life. It helps you live the life you find worth living. An afternoon asleep in the sun with nothing to show for it can be a day worth having. So it first learns, in your own words, what life you want, what energizes you, and where your limits are, then helps you get the things you want done.
 
@@ -50,7 +50,7 @@ It does not help you live the most cost-efficient life. It helps you live the li
 Remember one entry: `zp-life`. After installing, tell your Agent:
 
 ```text
-Use zp-life. Be my forever AI buddy and help me live a life I value.
+Use zp-life. Be my AI companion for life's journey and help me live a life I value.
 My job pays steadily, but last-minute requests fill every day.
 Over the next six months I want more time for family and my own writing.
 Help me understand how this could develop and what to do now.
@@ -135,7 +135,7 @@ Day to day you only need `zp-life`; the rest are used as the question requires.
 
 | Entry | What you get |
 |---|---|
-| `zp-life` | Your forever buddy's everyday entry: get to know you, imagine possible futures together, make choices, and get today's work done |
+| `zp-life` | Your AI companion's everyday entry: get to know you, imagine possible futures together, make choices, and get today's work done |
 | `zp-question` | A vague question turned into what you actually want to move forward |
 | `zp-judge` | For “should I change / do this?”: first checks it is a real question, argues against both options, then gives change / don't / observe with one smallest experiment; with thin data it never just says “wait” |
 | `zp-check` | Re-check what an AI did or said: it claims it is done, the chat drifted, or it keeps agreeing with you |
@@ -204,7 +204,7 @@ How to use it well once installed: [Restart Your Life in 24 Hours (main line)](d
 
 ## Author and support
 
-[About Zane and zpskill](docs/about.md) · [Why a forever AI buddy](docs/why-zpskill.md) · [Facts and materials for third-party introductions](docs/media-kit.md)
+[About Zane and zpskill](docs/about.md) · [Why an AI companion for life's journey](docs/why-zpskill.md) · [Facts and materials for third-party introductions](docs/media-kit.md)
 
 By [@ZanePan027](https://x.com/zanepan027) · [Xiaohongshu](https://xhslink.cn/o/7CiaOyzr6UO) · [Douyin](https://v.douyin.com/k3MsOVPRIKY)
 

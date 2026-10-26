@@ -2,11 +2,11 @@
 
 简体中文 | [English](README.en.md)
 
-> **你的永生 AI 搭子，陪伴你过好人生。**
+> **你的人生 AI 搭子，陪伴你过好人生。**
 
-![24小时重启人生：你的永生搭子，陪伴你过好人生](docs/life/forever-buddy.zh-CN.svg)
+![24小时重启人生：你的人生搭子，陪伴你过好人生](docs/life/forever-buddy.zh-CN.svg)
 
-zpskill 是 Zane 创建的「24小时重启人生」Skills，让支持 Skills 的 AI Agent 成为你的**永生搭子**：先认识你想过的生活，再陪你做选择、完成眼前的事，并根据现实反馈一起成长。工作、关系、身体、休息和你自己的愿望，都是你们共同面对的生活。
+zpskill 是 Zane 创建的「24小时重启人生」Skills，让支持 Skills 的 AI Agent 成为你的**人生搭子**：先认识你想过的生活，再陪你做选择、完成眼前的事，并根据现实反馈一起成长。工作、关系、身体、休息和你自己的愿望，都是你们共同面对的生活。
 
 你可以给搭子起个名字，告诉它你喜欢怎样相处。想不清楚时一起想，想做一件事时一起做，难受时也可以先聊聊。共同经历留在你授权的工作台里，下一次从上次停下的地方继续。
 
@@ -19,11 +19,11 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：�
 
 [开始重启人生](docs/life/restart.md) · [先聊眼前一件事](docs/life/first-task.md) · [下次接着用](docs/life/continue.md) · [总觉得没准备好](docs/life/avoidance.md) · [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [怎样工作](#zpskill-怎样工作) · [使用手册](#使用手册) · [更新记录](CHANGELOG.md)
 
-![永生搭子怎样陪你过好人生](docs/life/life-flow.zh-CN.svg)
+![人生搭子怎样陪你过好人生](docs/life/life-flow.zh-CN.svg)
 
 ---
 
-## 永生搭子怎样陪你过好人生
+## 人生搭子怎样陪你过好人生
 
 它不帮你过性价比最高的人生，只帮你过你自己觉得值得的人生。一个下午晒着太阳睡一觉，没有任何产出，也可以是值得的一天。所以它先用你自己的话记住你想过怎样的生活、什么让你有劲、边界在哪里，再陪你把想做的事做成。
 
@@ -50,7 +50,7 @@ zpskill 由 [Zane](https://github.com/ZanePan2027) 创建，只做一件事：�
 只需要记住一个入口：`zp-life`。安装后，直接告诉 Agent：
 
 ```text
-使用 zp-life，做我的永生搭子，陪伴我过好人生。
+使用 zp-life，做我的人生搭子，陪伴我过好人生。
 我现在的工作收入还可以，但每天被临时任务占满。
 我希望半年后能腾出时间照顾家人，也保留自己的创作。
 请从我想过的生活出发，看看接下来可能怎样发展，现在怎么走。
@@ -135,7 +135,7 @@ claude plugin install zpskill@zpskill
 
 | 入口 | 你会得到 |
 |---|---|
-| `zp-life` | 永生搭子的日常入口：认识你、一起想未来、做选择、把眼前的事做成；也陪你聊感受，帮你把话说给具体的人 |
+| `zp-life` | 人生搭子的日常入口：认识你、一起想未来、做选择、把眼前的事做成；也陪你聊感受，帮你把话说给具体的人 |
 | `zp-question` | 把模糊的问题理清成真正要推进的事 |
 | `zp-judge` | 对“要不要改／要不要做”先判断成不成立，两边都让反方说满，再给改、不改或再观察与一个最小实验；数据少时不会只说“再等等” |
 | `zp-check` | 复核 AI 的进展和产出：AI 说做完了怎么确认、越聊越偏怎么重开、AI 总说好怎么办 |
@@ -193,7 +193,7 @@ claude plugin install zpskill@zpskill
 
 ## 使用手册
 
-- [24小时重启人生：和永生搭子开始的第一天](docs/life/restart.md)
+- [24小时重启人生：和人生搭子开始的第一天](docs/life/restart.md)
 - [第一次使用：从一个问题得到可用成果](docs/life/first-task.md)
 - [下次接着用：背景、成果与反馈如何接续](docs/life/continue.md)
 - [总觉得没准备好：用 zp-awaken 检查回避循环](docs/life/avoidance.md)
@@ -204,7 +204,7 @@ claude plugin install zpskill@zpskill
 
 ## 作者与支持
 
-[关于 Zane 与 zpskill](docs/about.md) · [作者介绍：为什么做永生搭子](docs/why-zpskill.md) · [第三方介绍与引用材料](docs/media-kit.md)
+[关于 Zane 与 zpskill](docs/about.md) · [作者介绍：为什么做人生搭子](docs/why-zpskill.md) · [第三方介绍与引用材料](docs/media-kit.md)
 
 作者：[@ZanePan027](https://x.com/zanepan027) · [小红书](https://xhslink.cn/o/7CiaOyzr6UO) · [抖音](https://v.douyin.com/k3MsOVPRIKY)
 

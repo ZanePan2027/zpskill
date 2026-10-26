@@ -1,6 +1,6 @@
 # Skill directory
 
-Start with `zp-life`, your forever AI buddy's everyday entry. It gets to know you, helps you choose, and works with you on what matters today. Use a specific entry below when its purpose fits.
+Start with `zp-life`, your AI companion's everyday entry. It gets to know you, helps you choose, and works with you on what matters today. Use a specific entry below when its purpose fits.
 
 [简体中文](skill-inventory.md) · [Walkthrough](guide.en.md)
 

@@ -8,7 +8,7 @@
 
 - 技术名称：**zpskill**，仓库 **ZanePan2027/zpskill**。
 - 产品名称：**24小时重启人生**。
-- 产品角色：**永生 AI 搭子**。
+- 产品角色：**人生 AI 搭子**。
 - 主张：**陪伴你过好人生。**
 - 陪伴方式：先认识你想过的生活，再一起做选择、完成眼前的事，随现实反馈一起成长。
 - 日常入口：`zp-life`；设定搭子：`zp-partner`；求职：`zp-career`。
@@ -16,19 +16,19 @@
 
 ## 一句话介绍
 
-24小时重启人生：让 AI 成为你的永生搭子，陪伴你过好人生。
+24小时重启人生：让 AI 成为你的人生搭子，陪伴你过好人生。
 
 ## 目录与文章简介
 
-zpskill 是 Zane 创建的「24小时重启人生」Skills，让支持 Skills 的 AI Agent 成为你的永生搭子。先认识你想过的生活，再陪你做选择、完成眼前的事，并根据现实反馈一起成长。工作、关系、身体、休息和你自己的愿望，都可以带来讨论。共同经历保存在你授权的工作台中，让下次对话从上次停下的地方继续。
+zpskill 是 Zane 创建的「24小时重启人生」Skills，让支持 Skills 的 AI Agent 成为你的人生搭子。先认识你想过的生活，再陪你做选择、完成眼前的事，并根据现实反馈一起成长。工作、关系、身体、休息和你自己的愿望，都可以带来讨论。共同经历保存在你授权的工作台中，让下次对话从上次停下的地方继续。
 
 ## English description
 
-zpskill is Zane's Restart Your Life in 24 Hours Skills. It helps a compatible AI Agent become your forever AI buddy: get to know the life you want, think through choices, do things together, and grow through real experience. Work, relationships, health, rest, and personal wishes all belong. Shared experience is kept in a workspace you authorize, so you can pick up where you left off.
+zpskill is Zane's Restart Your Life in 24 Hours Skills. It helps a compatible AI Agent become your AI companion for life's journey: get to know the life you want, think through choices, do things together, and grow through real experience. Work, relationships, health, rest, and personal wishes all belong. Shared experience is kept in a workspace you authorize, so you can pick up where you left off.
 
 ## 可用于介绍的标题
 
-- 24小时重启人生：你的永生搭子，陪伴你过好人生
+- 24小时重启人生：你的人生搭子，陪伴你过好人生
 - 给 AI 起个名字，和你的搭子开始一起生活
 - 从认识你，到一起把生活过成喜欢的样子
 

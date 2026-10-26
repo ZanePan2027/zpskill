@@ -1,4 +1,4 @@
-# Restart Your Life in 24 Hours: your first day with a forever buddy
+# Restart Your Life in 24 Hours: your first day with an AI companion
 
 [简体中文](restart.md) · [Install](install.en.md) · [Bring one concern](first-task.en.md) · [Continue later](continue.en.md)
 
@@ -9,7 +9,7 @@ Make today a fresh start. Let your buddy get to know you, understand where you a
 After installing, tell an Agent that supports Skills:
 
 ```text
-Use zp-life. Be my forever AI buddy and help me live a life I value.
+Use zp-life. Be my AI companion for life's journey and help me live a life I value.
 Let's use today for a fresh start: get to know me, then think about what comes next.
 I will share my experiences, current situation, and the life I want.
 Listen first and ask about the specific things I bring up. Use what I have already shared; do not invent my history.

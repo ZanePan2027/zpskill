@@ -2,7 +2,7 @@
 
 [简体中文](first-task.md) · [Install](install.en.md) · [Manual](README.en.md)
 
-zpskill is Zane's Restart Your Life in 24 Hours Skills, helping your AI become a forever buddy by your side. You can start with one current concern, without organizing your whole life or setting up a complete workspace.
+zpskill is Zane's Restart Your Life in 24 Hours Skills, helping a compatible AI Agent accompany you through life. You can start with one current concern, without organizing your whole life or setting up a complete workspace.
 
 After following the [installation guide](install.en.md), start a new chat:
 
